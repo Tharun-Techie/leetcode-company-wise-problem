@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,35 +13,26 @@
             margin: 2rem auto;
             padding: 2rem;
         }
-
         .test-section {
             margin-bottom: 2rem;
             padding: 1rem;
             border: 1px solid var(--border-color);
             border-radius: var(--radius-md);
         }
-
         .test-result {
             margin-top: 1rem;
             padding: 1rem;
             background-color: var(--surface-color);
             border-radius: var(--radius-sm);
         }
-
-        .success {
-            color: var(--success-color);
-        }
-
-        .error {
-            color: var(--error-color);
-        }
+        .success { color: var(--success-color); }
+        .error { color: var(--error-color); }
     </style>
 </head>
-
 <body>
     <div class="test-container">
         <h1>Search Functionality Test</h1>
-
+        
         <div class="test-section">
             <h2>1. Global Search Input</h2>
             <div class="search-container">
@@ -100,7 +90,7 @@
                         <span class="match-indicator">Title Match</span>
                     </div>
                 </div>
-
+                
                 <div class="search-result-card bookmarked">
                     <div class="search-result-header">
                         <span class="company-badge">Microsoft</span>
@@ -125,8 +115,7 @@
             <h2>4. No Results State</h2>
             <div class="no-search-results">
                 <div class="empty-state-content">
-                    <svg class="empty-state-icon" width="64" height="64" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="1.5">
+                    <svg class="empty-state-icon" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                         <circle cx="11" cy="11" r="8"></circle>
                         <path d="M21 21l-4.35-4.35"></path>
                     </svg>
@@ -225,7 +214,7 @@
                 if (document.activeElement !== searchInput) {
                     e.preventDefault();
                     searchInput.focus();
-                    document.getElementById('search-test-result').innerHTML =
+                    document.getElementById('search-test-result').innerHTML = 
                         '<span class="success">✓ Keyboard shortcut (/) works correctly</span>';
                 }
             }
@@ -235,14 +224,14 @@
         document.getElementById('search-input').addEventListener('input', (e) => {
             const query = e.target.value;
             const clearButton = document.querySelector('.search-clear');
-
+            
             if (query.length > 0) {
                 clearButton.style.display = 'block';
-                document.getElementById('search-test-result').innerHTML =
+                document.getElementById('search-test-result').innerHTML = 
                     `<span class="success">✓ Search input working. Query: "${query}"</span>`;
             } else {
                 clearButton.style.display = 'none';
-                document.getElementById('search-test-result').innerHTML =
+                document.getElementById('search-test-result').innerHTML = 
                     '<p>Test: Type in the search box and press "/" to test keyboard shortcut</p>';
             }
         });
@@ -251,12 +240,11 @@
         document.querySelector('.search-clear').addEventListener('click', () => {
             document.getElementById('search-input').value = '';
             document.querySelector('.search-clear').style.display = 'none';
-            document.getElementById('search-test-result').innerHTML =
+            document.getElementById('search-test-result').innerHTML = 
                 '<span class="success">✓ Clear button works correctly</span>';
         });
 
         console.log('Search functionality test page loaded');
     </script>
 </body>
-
 </html>
