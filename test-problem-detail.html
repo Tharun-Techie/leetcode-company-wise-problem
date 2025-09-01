@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem Detail Test - LeetCode Company Problems</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/themes.css">
+
+    <style>
+        body {
+            padding: 20px;
+        }
+
+        .test-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+        }
+
+        .test-title {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .test-button {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Problem Detail Page Test</h1>
+
+        <div class="test-section">
+            <h2 class="test-title">Navigation Test</h2>
+            <button class="btn btn-primary test-button" onclick="testNavigation()">Navigate to Problem Detail</button>
+            <button class="btn btn-secondary test-button" onclick="testBackNavigation()">Test Back Navigation</button>
+        </div>
+
+        <div class="test-section">
+            <h2 class="test-title">State Management Test</h2>
+            <button class="btn btn-primary test-button" onclick="testSolvedToggle()">Toggle Solved Status</button>
+            <button class="btn btn-primary test-button" onclick="testBookmarkToggle()">Toggle Bookmark Status</button>
+            <button class="btn btn-secondary test-button" onclick="showCurrentState()">Show Current State</button>
+        </div>
+
+        <div class="test-section">
+            <h2 class="test-title">Theme Test</h2>
+            <button class="btn btn-primary test-button" onclick="testThemeToggle()">Toggle Theme</button>
+        </div>
+
+        <div class="test-section">
+            <h2 class="test-title">Problem Detail UI Test</h2>
+            <div id="test-problem-detail" style="display: none;">
+                <!-- Problem Detail Section (copied from main HTML) -->
+                <section class="problem-detail-section page-section" id="problem-detail" style="display: block;">
+                    <div class="container">
+                        <header class="page-header">
+                            <button class="back-button" aria-label="Go back to company problems">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="15,18 9,12 15,6"></polyline>
+                                </svg>
+                                Back to Problems
+                            </button>
+                        </header>
+
+                        <article class="problem-detail-content">
+                            <header class="problem-header">
+                                <h2 class="problem-title" id="problem-title">Two Sum</h2>
+                                <div class="problem-meta">
+                                    <span class="difficulty-badge medium" id="problem-difficulty">Medium</span>
+                                    <span class="problem-frequency" id="problem-frequency">Frequency: 85%</span>
+                                    <span class="problem-acceptance" id="problem-acceptance">Acceptance: 45%</span>
+                                </div>
+                            </header>
+
+                            <div class="problem-actions">
+                                <a href="https://leetcode.com/problems/two-sum" class="leetcode-link" id="leetcode-link"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15,3 21,3 21,9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                    Open in LeetCode
+                                </a>
+
+                                <button class="bookmark-btn" id="bookmark-btn" aria-label="Bookmark this problem">
+                                    <svg class="bookmark-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                    </svg>
+                                    <span class="bookmark-text">Bookmark</span>
+                                </button>
+
+                                <button class="solved-btn" id="solved-btn" aria-label="Mark as solved">
+                                    <svg class="solved-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2">
+                                        <polyline points="20,6 9,17 4,12"></polyline>
+                                    </svg>
+                                    <span class="solved-text">Mark as Solved</span>
+                                </button>
+                            </div>
+
+                            <div class="problem-topics" id="problem-topics">
+                                <span class="topic-tag">Array</span>
+                                <span class="topic-tag">Hash Table</span>
+                                <span class="topic-tag">Two Pointers</span>
+                            </div>
+
+                            <div class="problem-description" id="problem-description">
+                                <h3>Problem Description</h3>
+                                <p>Given an array of integers nums and an integer target, return indices of the two
+                                    numbers such that they add up to target.</p>
+                                <p>You may assume that each input would have exactly one solution, and you may not use
+                                    the same element twice.</p>
+                                <p>You can return the answer in any order.</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+            <button class="btn btn-primary test-button" onclick="showProblemDetail()">Show Problem Detail UI</button>
+            <button class="btn btn-secondary test-button" onclick="hideProblemDetail()">Hide Problem Detail UI</button>
+        </div>
+
+        <div id="test-output"
+            style="margin-top: 20px; padding: 15px; background: var(--surface-color); border-radius: var(--radius-md); font-family: monospace; white-space: pre-wrap;">
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/utils.js"></script>
+    <script src="js/dataManager.js"></script>
+    <script src="js/stateManager.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>
+        // Test functions
+        let testStateManager;
+        let testRouter;
+
+        // Initialize test environment
+        function initializeTest() {
+            testStateManager = new StateManager();
+            testRouter = new Router();
+
+            // Make globally available for testing
+            window.stateManager = testStateManager;
+            window.router = testRouter;
+
+            log('Test environment initialized');
+        }
+
+        function log(message) {
+            const output = document.getElementById('test-output');
+            const timestamp = new Date().toLocaleTimeString();
+            output.textContent += `[${timestamp}] ${message}\n`;
+            output.scrollTop = output.scrollHeight;
+        }
+
+        function testNavigation() {
+            log('Testing navigation to problem detail...');
+            if (window.RouterUtils) {
+                RouterUtils.goToProblem('Google', 'test-problem-id');
+                log('Navigation command sent');
+            } else {
+                log('ERROR: RouterUtils not available');
+            }
+        }
+
+        function testBackNavigation() {
+            log('Testing back navigation...');
+            if (window.RouterUtils) {
+                RouterUtils.goBack();
+                log('Back navigation command sent');
+            } else {
+                log('ERROR: RouterUtils not available');
+            }
+        }
+
+        function testSolvedToggle() {
+            const problemId = 'test-problem-id';
+            if (testStateManager) {
+                const currentStatus = testStateManager.isProblemSolved(problemId);
+                const newStatus = !currentStatus;
+                testStateManager.updateSolvedStatus(problemId, newStatus);
+                log(`Problem ${problemId} solved status: ${currentStatus} -> ${newStatus}`);
+
+                // Update UI if visible
+                if (document.getElementById('problem-detail').style.display !== 'none') {
+                    updateSolvedButton(newStatus);
+                }
+            } else {
+                log('ERROR: StateManager not available');
+            }
+        }
+
+        function testBookmarkToggle() {
+            const problemId = 'test-problem-id';
+            if (testStateManager) {
+                const currentStatus = testStateManager.isProblemBookmarked(problemId);
+                const newStatus = !currentStatus;
+                testStateManager.updateBookmarkStatus(problemId, newStatus);
+                log(`Problem ${problemId} bookmark status: ${currentStatus} -> ${newStatus}`);
+
+                // Update UI if visible
+                if (document.getElementById('problem-detail').style.display !== 'none') {
+                    updateBookmarkButton(newStatus);
+                }
+            } else {
+                log('ERROR: StateManager not available');
+            }
+        }
+
+        function testThemeToggle() {
+            if (testStateManager) {
+                const currentTheme = testStateManager.getTheme();
+                const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+                testStateManager.updateTheme(newTheme);
+                log(`Theme changed: ${currentTheme} -> ${newTheme}`);
+
+                // Apply theme
+                document.documentElement.setAttribute('data-theme', newTheme);
+            } else {
+                log('ERROR: StateManager not available');
+            }
+        }
+
+        function showCurrentState() {
+            if (testStateManager) {
+                const stats = testStateManager.getStateStats();
+                log('Current state: ' + JSON.stringify(stats, null, 2));
+            } else {
+                log('ERROR: StateManager not available');
+            }
+        }
+
+        function showProblemDetail() {
+            const detailSection = document.getElementById('test-problem-detail');
+            detailSection.style.display = 'block';
+            log('Problem detail UI shown');
+
+            // Set up handlers for the test UI
+            setupTestProblemDetailHandlers();
+        }
+
+        function hideProblemDetail() {
+            const detailSection = document.getElementById('test-problem-detail');
+            detailSection.style.display = 'none';
+            log('Problem detail UI hidden');
+        }
+
+        function setupTestProblemDetailHandlers() {
+            const problemId = 'test-problem-id';
+
+            // Bookmark button
+            const bookmarkBtn = document.getElementById('bookmark-btn');
+            if (bookmarkBtn) {
+                bookmarkBtn.onclick = () => {
+                    testBookmarkToggle();
+                };
+            }
+
+            // Solved button
+            const solvedBtn = document.getElementById('solved-btn');
+            if (solvedBtn) {
+                solvedBtn.onclick = () => {
+                    testSolvedToggle();
+                };
+            }
+
+            // Back button
+            const backBtn = document.querySelector('.back-button');
+            if (backBtn) {
+                backBtn.onclick = () => {
+                    log('Back button clicked');
+                    hideProblemDetail();
+                };
+            }
+
+            log('Test problem detail handlers set up');
+        }
+
+        // Helper functions (copied from app.js for testing)
+        function updateBookmarkButton(isBookmarked) {
+            const bookmarkBtn = document.getElementById('bookmark-btn');
+            const bookmarkText = bookmarkBtn ? bookmarkBtn.querySelector('.bookmark-text') : null;
+            const bookmarkIcon = bookmarkBtn ? bookmarkBtn.querySelector('.bookmark-icon') : null;
+
+            if (bookmarkBtn) {
+                if (isBookmarked) {
+                    bookmarkBtn.classList.add('bookmarked');
+                    bookmarkBtn.setAttribute('aria-label', 'Remove bookmark');
+                    if (bookmarkText) bookmarkText.textContent = 'Bookmarked';
+                    if (bookmarkIcon) bookmarkIcon.style.fill = 'currentColor';
+                } else {
+                    bookmarkBtn.classList.remove('bookmarked');
+                    bookmarkBtn.setAttribute('aria-label', 'Bookmark this problem');
+                    if (bookmarkText) bookmarkText.textContent = 'Bookmark';
+                    if (bookmarkIcon) bookmarkIcon.style.fill = 'none';
+                }
+            }
+        }
+
+        function updateSolvedButton(isSolved) {
+            const solvedBtn = document.getElementById('solved-btn');
+            const solvedText = solvedBtn ? solvedBtn.querySelector('.solved-text') : null;
+
+            if (solvedBtn) {
+                if (isSolved) {
+                    solvedBtn.classList.add('solved');
+                    solvedBtn.setAttribute('aria-label', 'Mark as unsolved');
+                    if (solvedText) solvedText.textContent = 'Solved';
+                } else {
+                    solvedBtn.classList.remove('solved');
+                    solvedBtn.setAttribute('aria-label', 'Mark as solved');
+                    if (solvedText) solvedText.textContent = 'Mark as Solved';
+                }
+            }
+        }
+
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', initializeTest);
+    </script>
+</body>
+
+</html>

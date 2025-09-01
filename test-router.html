@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Router Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .page-section {
+            display: none;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 10px 0;
+        }
+
+        .page-section.active {
+            display: block;
+        }
+
+        .nav-item {
+            margin: 0 10px;
+        }
+
+        .nav-item.active {
+            font-weight: bold;
+        }
+
+        button {
+            margin: 5px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Router Test Page</h1>
+
+    <nav>
+        <a href="#/" class="nav-item" data-section="home">Home</a>
+        <a href="#/company/Google" class="nav-item" data-section="company">Google</a>
+        <a href="#/company/Amazon/problem/two-sum" class="nav-item" data-section="problem">Problem Detail</a>
+        <a href="#/favorites" class="nav-item" data-section="favorites">Favorites</a>
+    </nav>
+
+    <div>
+        <button onclick="RouterUtils.goHome()">Go Home</button>
+        <button onclick="RouterUtils.goToCompany('Microsoft')">Go to Microsoft</button>
+        <button onclick="RouterUtils.goToProblem('Google', 'valid-parentheses')">Go to Problem</button>
+        <button onclick="RouterUtils.goBack()">Go Back</button>
+        <button onclick="RouterUtils.goForward()">Go Forward</button>
+    </div>
+
+    <div id="current-route">Current Route: /</div>
+    <div id="breadcrumbs" style="margin: 10px 0; padding: 10px; background: #f0f0f0;"></div>
+
+    <div class="page-section active" id="homepage">
+        <h2>Homepage</h2>
+        <p>This is the homepage content.</p>
+    </div>
+
+    <div class="page-section" id="company-page">
+        <h2>Company Page</h2>
+        <p>This is the company page content.</p>
+        <div id="company-name-display"></div>
+    </div>
+
+    <div class="page-section" id="problem-detail">
+        <h2>Problem Detail</h2>
+        <p>This is the problem detail content.</p>
+        <div id="problem-info-display"></div>
+    </div>
+
+    <div class="page-section" id="favorites-page">
+        <h2>Favorites</h2>
+        <p>This is the favorites page content.</p>
+    </div>
+
+    <div class="page-section" id="404-page">
+        <h2>404 - Page Not Found</h2>
+        <p>The page you're looking for doesn't exist.</p>
+    </div>
+
+    <div class="page-section" id="error-page">
+        <h2>Error</h2>
+        <p>An error occurred.</p>
+    </div>
+
+    <script src="js/router.js"></script>
+    <script>
+        // Initialize router for testing
+        const router = new Router();
+        window.router = router;
+
+        // Test event listeners
+        router.afterNavigate((path, params) => {
+            document.getElementById('current-route').textContent = `Current Route: ${path}`;
+
+            if (path.includes('/company/') && params.companyName) {
+                document.getElementById('company-name-display').textContent = `Company: ${params.companyName}`;
+            }
+
+            if (params.problemId) {
+                document.getElementById('problem-info-display').textContent =
+                    `Company: ${params.companyName}, Problem: ${params.problemId}`;
+            }
+        });
+
+        // Test breadcrumb updates
+        function updateTestBreadcrumbs(path, params) {
+            const breadcrumbContainer = document.getElementById('breadcrumbs');
+            let breadcrumbs = [];
+
+            if (path === '/' || path === '/home') {
+                breadcrumbs = [{ text: 'Home', url: '/' }];
+            } else if (path.startsWith('/company/')) {
+                breadcrumbs = [
+                    { text: 'Home', url: '/' },
+                    { text: params.companyName, url: `/company/${params.companyName}` }
+                ];
+
+                if (params.problemId) {
+                    breadcrumbs.push({
+                        text: 'Problem Detail',
+                        url: `/company/${params.companyName}/problem/${params.problemId}`
+                    });
+                }
+            } else if (path === '/favorites') {
+                breadcrumbs = [
+                    { text: 'Home', url: '/' },
+                    { text: 'Favorites', url: '/favorites' }
+                ];
+            }
+
+            breadcrumbContainer.innerHTML = 'Breadcrumbs: ' + breadcrumbs.map((crumb, index) => {
+                const isLast = index === breadcrumbs.length - 1;
+                if (isLast) {
+                    return `<span style="font-weight: bold;">${crumb.text}</span>`;
+                } else {
+                    return `<a href="#${crumb.url}">${crumb.text}</a>`;
+                }
+            }).join(' › ');
+        }
+
+        router.afterNavigate(updateTestBreadcrumbs);
+
+        console.log('Router test initialized');
+        console.log('Available routes:', Array.from(router.routes.keys()));
+    </script>
+</body>
+
+</html>

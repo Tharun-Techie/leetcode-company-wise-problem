@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Toggle Test</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/themes.css">
+    <style>
+        .test-container {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .test-section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            background-color: var(--surface-color);
+        }
+        
+        .test-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .test-card {
+            padding: 1rem;
+            background-color: var(--background-color);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            transition: all var(--transition-fast);
+        }
+        
+        .test-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .theme-info {
+            margin-top: 1rem;
+            padding: 1rem;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: var(--radius-md);
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <header style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+            <h1>Theme Toggle Test</h1>
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <svg class="theme-icon theme-icon-light" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="theme-icon theme-icon-dark" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+        </header>
+
+        <div class="test-section">
+            <h2>Color Variables Test</h2>
+            <p>This section tests if CSS custom properties change correctly with theme toggle.</p>
+            <div class="test-grid">
+                <div class="test-card">
+                    <h3>Primary Colors</h3>
+                    <div style="background-color: var(--primary-color); height: 30px; border-radius: 4px; margin: 0.5rem 0;"></div>
+                    <div style="background-color: var(--secondary-color); height: 30px; border-radius: 4px; margin: 0.5rem 0;"></div>
+                </div>
+                <div class="test-card">
+                    <h3>Text Colors</h3>
+                    <p style="color: var(--text-primary);">Primary Text</p>
+                    <p style="color: var(--text-secondary);">Secondary Text</p>
+                    <p style="color: var(--text-muted);">Muted Text</p>
+                </div>
+                <div class="test-card">
+                    <h3>Difficulty Badges</h3>
+                    <span class="difficulty-badge easy">Easy</span>
+                    <span class="difficulty-badge medium">Medium</span>
+                    <span class="difficulty-badge hard">Hard</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h2>Interactive Elements</h2>
+            <div class="test-grid">
+                <div class="test-card">
+                    <h3>Buttons</h3>
+                    <button class="btn btn-primary" style="margin: 0.25rem;">Primary</button>
+                    <button class="btn btn-secondary" style="margin: 0.25rem;">Secondary</button>
+                </div>
+                <div class="test-card">
+                    <h3>Filter Buttons</h3>
+                    <button class="filter-btn active" style="margin: 0.25rem;">All</button>
+                    <button class="filter-btn" style="margin: 0.25rem;">Easy</button>
+                    <button class="filter-btn" style="margin: 0.25rem;">Medium</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h2>Responsive Test</h2>
+            <p>Resize the window to test responsive breakpoints:</p>
+            <div class="companies-grid" style="margin-top: 1rem;">
+                <div class="company-card">
+                    <div class="company-header">
+                        <div class="company-logo">G</div>
+                        <h3 class="company-name">Google</h3>
+                    </div>
+                    <div class="company-stats">
+                        <div class="company-problem-count">150 problems</div>
+                        <div class="company-progress">25/150 solved</div>
+                    </div>
+                </div>
+                <div class="company-card">
+                    <div class="company-header">
+                        <div class="company-logo">A</div>
+                        <h3 class="company-name">Amazon</h3>
+                    </div>
+                    <div class="company-stats">
+                        <div class="company-problem-count">120 problems</div>
+                        <div class="company-progress">18/120 solved</div>
+                    </div>
+                </div>
+                <div class="company-card">
+                    <div class="company-header">
+                        <div class="company-logo">M</div>
+                        <h3 class="company-name">Microsoft</h3>
+                    </div>
+                    <div class="company-stats">
+                        <div class="company-problem-count">95 problems</div>
+                        <div class="company-progress">12/95 solved</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme-info">
+            <h3>Current Theme: <span id="current-theme">Light</span></h3>
+            <p>Click the theme toggle button to switch between light and dark themes.</p>
+            <p>The theme preference should persist in localStorage.</p>
+        </div>
+    </div>
+
+    <script src="js/stateManager.js"></script>
+    <script>
+        // Initialize state manager for theme functionality
+        const stateManager = new StateManager();
+        
+        // Apply initial theme
+        function applyTheme(theme) {
+            document.documentElement.classList.add('theme-transition');
+            document.documentElement.setAttribute('data-theme', theme);
+            
+            const themeToggle = document.querySelector('.theme-toggle');
+            const lightIcon = themeToggle.querySelector('.theme-icon-light');
+            const darkIcon = themeToggle.querySelector('.theme-icon-dark');
+            const currentThemeSpan = document.getElementById('current-theme');
+            
+            if (theme === 'dark') {
+                if (lightIcon) lightIcon.style.display = 'none';
+                if (darkIcon) darkIcon.style.display = 'block';
+                themeToggle.setAttribute('aria-label', 'Switch to light theme');
+                currentThemeSpan.textContent = 'Dark';
+            } else {
+                if (lightIcon) lightIcon.style.display = 'block';
+                if (darkIcon) darkIcon.style.display = 'none';
+                themeToggle.setAttribute('aria-label', 'Switch to dark theme');
+                currentThemeSpan.textContent = 'Light';
+            }
+            
+            setTimeout(() => {
+                document.documentElement.classList.remove('theme-transition');
+            }, 350);
+        }
+        
+        // Set up theme toggle
+        function setupThemeToggle() {
+            const themeToggle = document.querySelector('.theme-toggle');
+            
+            const handleThemeToggle = () => {
+                const currentTheme = stateManager.getTheme();
+                const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+                stateManager.updateTheme(newTheme);
+                
+                // Visual feedback
+                themeToggle.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    themeToggle.style.transform = 'scale(1)';
+                }, 150);
+            };
+            
+            themeToggle.addEventListener('click', handleThemeToggle);
+            themeToggle.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    handleThemeToggle();
+                }
+            });
+        }
+        
+        // Listen for theme changes
+        stateManager.addEventListener('themeChanged', ({ theme }) => {
+            applyTheme(theme);
+        });
+        
+        // Initialize
+        applyTheme(stateManager.getTheme());
+        setupThemeToggle();
+        
+        console.log('Theme toggle test initialized');
+        console.log('Current theme:', stateManager.getTheme());
+    </script>
+</body>
+</html>

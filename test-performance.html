@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Optimizations Test</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .test-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+        }
+
+        .test-section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+        }
+
+        .test-button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            margin: 0.5rem;
+        }
+
+        .test-results {
+            margin-top: 1rem;
+            padding: 1rem;
+            background-color: var(--surface-color);
+            border-radius: var(--radius-sm);
+            font-family: monospace;
+            font-size: 0.875rem;
+        }
+
+        .search-test {
+            margin: 1rem 0;
+        }
+
+        .search-test input {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+        }
+
+        .performance-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .metric-card {
+            padding: 1rem;
+            background-color: var(--surface-color);
+            border-radius: var(--radius-md);
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .metric-label {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="test-container">
+        <h1>Performance Optimizations Test</h1>
+
+        <div class="test-section">
+            <h2>Loading States Test</h2>
+            <button class="test-button" onclick="testLoadingState()">Show Loading State</button>
+            <button class="test-button" onclick="testErrorState()">Show Error State</button>
+            <button class="test-button" onclick="clearStates()">Clear States</button>
+            <div id="loading-test-container"
+                style="height: 200px; border: 1px dashed var(--border-color); margin-top: 1rem;"></div>
+        </div>
+
+        <div class="test-section">
+            <h2>Debounced Search Test</h2>
+            <div class="search-test">
+                <input type="text" id="search-test-input" placeholder="Type to test debounced search...">
+                <div class="test-results" id="search-results">Search results will appear here...</div>
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h2>Retry Mechanism Test</h2>
+            <button class="test-button" onclick="testRetryMechanism()">Test Retry with Failures</button>
+            <button class="test-button" onclick="testRetrySuccess()">Test Retry with Success</button>
+            <div class="test-results" id="retry-results">Retry test results will appear here...</div>
+        </div>
+
+        <div class="test-section">
+            <h2>DOM Optimization Test</h2>
+            <button class="test-button" onclick="testBatchedUpdates()">Test Batched DOM Updates</button>
+            <button class="test-button" onclick="testRegularUpdates()">Test Regular DOM Updates</button>
+            <div class="test-results" id="dom-results">DOM test results will appear here...</div>
+            <div id="dom-test-container"
+                style="height: 300px; overflow-y: auto; border: 1px solid var(--border-color); margin-top: 1rem;"></div>
+        </div>
+
+        <div class="test-section">
+            <h2>Performance Metrics</h2>
+            <button class="test-button" onclick="updateMetrics()">Update Metrics</button>
+            <div class="performance-metrics" id="metrics-container">
+                <div class="metric-card">
+                    <div class="metric-value" id="memory-usage">--</div>
+                    <div class="metric-label">Memory Usage (MB)</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value" id="active-operations">--</div>
+                    <div class="metric-label">Active Operations</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value" id="cache-size">--</div>
+                    <div class="metric-label">Cache Size</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load performance module -->
+    <script src="js/performance.js"></script>
+
+    <script>
+        // Test functions
+        function testLoadingState() {
+            const container = document.getElementById('loading-test-container');
+            window.performanceManager.showLoadingState('test-loading', 'Testing loading state...', container);
+
+            // Auto-hide after 3 seconds
+            setTimeout(() => {
+                window.performanceManager.hideLoadingState('test-loading');
+            }, 3000);
+        }
+
+        function testErrorState() {
+            const container = document.getElementById('loading-test-container');
+            const error = new Error('This is a test error message');
+
+            window.performanceManager.showErrorState('test-error', error, () => {
+                alert('Retry button clicked!');
+                window.performanceManager.hideErrorState('test-error');
+            }, container);
+        }
+
+        function clearStates() {
+            window.performanceManager.hideLoadingState('test-loading');
+            window.performanceManager.hideErrorState('test-error');
+            document.getElementById('loading-test-container').innerHTML = '';
+        }
+
+        // Setup debounced search test
+        const searchInput = document.getElementById('search-test-input');
+        const searchResults = document.getElementById('search-results');
+        let searchCount = 0;
+
+        const debouncedSearch = PerformanceManager.debounce((query) => {
+            searchCount++;
+            searchResults.innerHTML = `Search #${searchCount}: "${query}" (debounced after 300ms)`;
+        }, 300);
+
+        searchInput.addEventListener('input', (e) => {
+            debouncedSearch(e.target.value);
+        });
+
+        // Test retry mechanism
+        async function testRetryMechanism() {
+            const results = document.getElementById('retry-results');
+            results.innerHTML = 'Testing retry mechanism with failures...';
+
+            let attempt = 0;
+            const failingOperation = async () => {
+                attempt++;
+                if (attempt < 3) {
+                    throw new Error(`Attempt ${attempt} failed (simulated)`);
+                }
+                return `Success on attempt ${attempt}!`;
+            };
+
+            try {
+                const result = await window.performanceManager.executeWithRetry(
+                    'test-retry',
+                    failingOperation,
+                    { maxRetries: 3, baseDelay: 500 }
+                );
+                results.innerHTML += `\nResult: ${result}`;
+            } catch (error) {
+                results.innerHTML += `\nFinal error: ${error.message}`;
+            }
+        }
+
+        async function testRetrySuccess() {
+            const results = document.getElementById('retry-results');
+            results.innerHTML = 'Testing retry mechanism with immediate success...';
+
+            const successOperation = async () => {
+                return 'Success on first attempt!';
+            };
+
+            try {
+                const result = await window.performanceManager.executeWithRetry(
+                    'test-retry-success',
+                    successOperation,
+                    { maxRetries: 3, baseDelay: 500 }
+                );
+                results.innerHTML += `\nResult: ${result}`;
+            } catch (error) {
+                results.innerHTML += `\nError: ${error.message}`;
+            }
+        }
+
+        // Test DOM optimizations
+        async function testBatchedUpdates() {
+            const container = document.getElementById('dom-test-container');
+            const results = document.getElementById('dom-results');
+
+            container.innerHTML = '';
+
+            const startTime = performance.now();
+
+            // Create 100 elements using batched updates
+            const updates = [];
+            for (let i = 0; i < 100; i++) {
+                updates.push(() => {
+                    const div = document.createElement('div');
+                    div.textContent = `Batched Item ${i + 1}`;
+                    div.style.padding = '0.5rem';
+                    div.style.borderBottom = '1px solid var(--border-color)';
+                    container.appendChild(div);
+                });
+            }
+
+            await window.performanceManager.batchDOMUpdates(updates);
+
+            const endTime = performance.now();
+            results.innerHTML = `Batched updates: ${(endTime - startTime).toFixed(2)}ms for 100 elements`;
+        }
+
+        async function testRegularUpdates() {
+            const container = document.getElementById('dom-test-container');
+            const results = document.getElementById('dom-results');
+
+            container.innerHTML = '';
+
+            const startTime = performance.now();
+
+            // Create 100 elements using regular updates
+            for (let i = 0; i < 100; i++) {
+                const div = document.createElement('div');
+                div.textContent = `Regular Item ${i + 1}`;
+                div.style.padding = '0.5rem';
+                div.style.borderBottom = '1px solid var(--border-color)';
+                container.appendChild(div);
+            }
+
+            const endTime = performance.now();
+            results.innerHTML = `Regular updates: ${(endTime - startTime).toFixed(2)}ms for 100 elements`;
+        }
+
+        // Update performance metrics
+        function updateMetrics() {
+            // Memory usage
+            if (performance.memory) {
+                const memoryMB = Math.round(performance.memory.usedJSHeapSize / 1048576);
+                document.getElementById('memory-usage').textContent = memoryMB;
+            } else {
+                document.getElementById('memory-usage').textContent = 'N/A';
+            }
+
+            // Active operations
+            const metrics = window.performanceManager.getMetrics();
+            document.getElementById('active-operations').textContent =
+                metrics.activeLoadingStates + metrics.activeErrorStates;
+
+            // Cache size
+            if (window.searchManager && window.searchManager.getCacheStats) {
+                const cacheStats = window.searchManager.getCacheStats();
+                document.getElementById('cache-size').textContent = cacheStats.size;
+            } else {
+                document.getElementById('cache-size').textContent = '0';
+            }
+        }
+
+        // Auto-update metrics every 5 seconds
+        setInterval(updateMetrics, 5000);
+        updateMetrics(); // Initial update
+
+        console.log('Performance test page loaded successfully');
+        console.log('Available performance tools:', {
+            performanceManager: !!window.performanceManager,
+            searchManager: !!window.searchManager,
+            domOptimizer: !!window.domOptimizer
+        });
+    </script>
+</body>
+
+</html>

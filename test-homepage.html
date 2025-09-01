@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage Test - LeetCode Company Problems</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/themes.css">
+</head>
+<body>
+    <div id="test-container">
+        <h1>Homepage Functionality Test</h1>
+        
+        <!-- Stats Container -->
+        <div class="stats-container">
+            <div class="stat-card">
+                <span class="stat-number" id="total-companies">0</span>
+                <span class="stat-label">Companies</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="total-problems">0</span>
+                <span class="stat-label">Problems</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="solved-problems">0</span>
+                <span class="stat-label">Solved</span>
+            </div>
+        </div>
+        
+        <!-- Search Input -->
+        <div class="search-container">
+            <input type="search" id="search-input" class="search-input" placeholder="Search companies...">
+            <button class="search-clear" style="display: none;">×</button>
+        </div>
+        
+        <!-- Companies Grid -->
+        <div class="companies-grid" id="companies-grid"></div>
+        
+        <!-- No Results -->
+        <div class="no-results" style="display: none;">
+            <h3>No companies found</h3>
+            <p>Try adjusting your search terms.</p>
+        </div>
+        
+        <!-- Loading State -->
+        <div class="loading-container" style="display: none;">
+            <div class="loading-spinner"></div>
+            <p class="loading-text">Loading...</p>
+        </div>
+        
+        <!-- Error State -->
+        <div class="error-container" style="display: none;">
+            <div class="error-content">
+                <h2>Something went wrong</h2>
+                <p class="error-message">We encountered an error while loading the content.</p>
+                <button class="retry-button">Try Again</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Test Controls -->
+    <div id="test-controls" style="position: fixed; top: 10px; right: 10px; background: white; padding: 10px; border: 1px solid #ccc;">
+        <h3>Test Controls</h3>
+        <button onclick="testLoadCompanies()">Load Companies</button>
+        <button onclick="testSearch()">Test Search</button>
+        <button onclick="testStats()">Update Stats</button>
+        <div id="test-output"></div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/utils.js"></script>
+    <script src="js/dataManager.js"></script>
+    <script src="js/stateManager.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/router.js"></script>
+
+    <script>
+        // Test functions
+        let testStateManager;
+        let testDataManager;
+        let testCompanies = [];
+
+        // Initialize test environment
+        function initTest() {
+            testStateManager = new StateManager();
+            testDataManager = new DataManager();
+            window.stateManager = testStateManager;
+            window.dataManager = testDataManager;
+            
+            // Mock RouterUtils for testing
+            window.RouterUtils = {
+                goToCompany: (companyName) => {
+                    console.log(`Navigate to company: ${companyName}`);
+                    document.getElementById('test-output').innerHTML += `<p>Navigate to: ${companyName}</p>`;
+                }
+            };
+            
+            console.log('Test environment initialized');
+        }
+
+        async function testLoadCompanies() {
+            try {
+                document.getElementById('test-output').innerHTML = '<p>Loading companies...</p>';
+                
+                const companies = await testDataManager.loadCompanies();
+                testCompanies = companies;
+                
+                // Update stats
+                updateHomepageStats(companies);
+                
+                // Render company cards
+                renderCompanyCards(companies);
+                
+                // Set up search
+                setupHomepageSearch(companies);
+                
+                document.getElementById('test-output').innerHTML += `<p>Loaded ${companies.length} companies successfully!</p>`;
+                
+            } catch (error) {
+                console.error('Test failed:', error);
+                document.getElementById('test-output').innerHTML += `<p style="color: red;">Error: ${error.message}</p>`;
+            }
+        }
+
+        function testSearch() {
+            const searchInput = document.getElementById('search-input');
+            searchInput.value = 'Google';
+            searchInput.dispatchEvent(new Event('input'));
+            document.getElementById('test-output').innerHTML += '<p>Search test triggered for "Google"</p>';
+        }
+
+        function testStats() {
+            if (testCompanies.length > 0) {
+                updateHomepageStats(testCompanies);
+                document.getElementById('test-output').innerHTML += '<p>Stats updated</p>';
+            } else {
+                document.getElementById('test-output').innerHTML += '<p>No companies loaded yet</p>';
+            }
+        }
+
+        // Copy the homepage functions from app.js for testing
+        function updateHomepageStats(companies) {
+            const totalCompanies = companies.length;
+            const totalProblems = companies.reduce((sum, company) => sum + (company.problemCount || 0), 0);
+            
+            // Get solved problems count from state manager
+            const solvedProblems = testStateManager ? testStateManager.getSolvedProblems().length : 0;
+            
+            // Update stat elements
+            const totalCompaniesEl = document.getElementById('total-companies');
+            const totalProblemsEl = document.getElementById('total-problems');
+            const solvedProblemsEl = document.getElementById('solved-problems');
+            
+            if (totalCompaniesEl) totalCompaniesEl.textContent = totalCompanies;
+            if (totalProblemsEl) totalProblemsEl.textContent = totalProblems;
+            if (solvedProblemsEl) solvedProblemsEl.textContent = solvedProblems;
+        }
+
+        function renderCompanyCards(companies, filteredCompanies = null) {
+            const companiesGrid = document.getElementById('companies-grid');
+            const noResults = document.querySelector('.no-results');
+            
+            if (!companiesGrid) {
+                console.error('Companies grid element not found');
+                return;
+            }
+            
+            // Use filtered companies if provided, otherwise use all companies
+            const companiesToRender = filteredCompanies || companies;
+            
+            // Clear existing content
+            companiesGrid.innerHTML = '';
+            
+            if (companiesToRender.length === 0) {
+                // Show no results message
+                if (noResults) {
+                    noResults.style.display = 'block';
+                }
+                return;
+            }
+            
+            // Hide no results message
+            if (noResults) {
+                noResults.style.display = 'none';
+            }
+            
+            // Create company cards
+            companiesToRender.forEach(company => {
+                try {
+                    // Get progress data from state manager
+                    const progress = testStateManager ? testStateManager.getCompanyProgress(company.name) : null;
+                    
+                    // Create company card using UIComponents
+                    const card = UIComponents.createCompanyCard(company, progress);
+                    
+                    // Add click handler for navigation
+                    card.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        RouterUtils.goToCompany(company.name);
+                    });
+                    
+                    companiesGrid.appendChild(card);
+                } catch (error) {
+                    console.warn(`Failed to create card for company ${company.name}:`, error);
+                }
+            });
+            
+            console.log(`Rendered ${companiesToRender.length} company cards`);
+        }
+
+        function setupHomepageSearch(companies) {
+            const searchInput = document.getElementById('search-input');
+            const searchClear = document.querySelector('.search-clear');
+            
+            if (!searchInput) {
+                console.warn('Search input not found');
+                return;
+            }
+            
+            let searchTimeout;
+            
+            // Debounced search function
+            const performSearch = (query) => {
+                clearTimeout(searchTimeout);
+                searchTimeout = setTimeout(() => {
+                    const filteredCompanies = filterCompaniesBySearch(companies, query);
+                    renderCompanyCards(companies, filteredCompanies);
+                    
+                    // Update state manager with search query
+                    if (testStateManager) {
+                        testStateManager.updateSearchQuery(query);
+                    }
+                }, 300); // 300ms debounce
+            };
+            
+            // Search input handler
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.trim();
+                
+                // Show/hide clear button
+                if (searchClear) {
+                    searchClear.style.display = query ? 'block' : 'none';
+                }
+                
+                performSearch(query);
+            });
+            
+            // Clear search handler
+            if (searchClear) {
+                searchClear.addEventListener('click', () => {
+                    searchInput.value = '';
+                    searchClear.style.display = 'none';
+                    searchInput.focus();
+                    performSearch('');
+                });
+            }
+            
+            console.log('Homepage search functionality initialized');
+        }
+
+        function filterCompaniesBySearch(companies, query) {
+            if (!query || query.length === 0) {
+                return companies;
+            }
+            
+            const searchTerm = query.toLowerCase();
+            
+            return companies.filter(company => {
+                // Search by company name
+                const nameMatch = company.name.toLowerCase().includes(searchTerm);
+                
+                // Could extend to search by other criteria in the future
+                return nameMatch;
+            });
+        }
+
+        // Initialize test when page loads
+        document.addEventListener('DOMContentLoaded', initTest);
+    </script>
+</body>
+</html>

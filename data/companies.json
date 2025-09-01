@@ -1,0 +1,6117 @@
+{
+  "generated": "2025-09-01T19:50:04.693Z",
+  "totalCompanies": 470,
+  "totalProblems": 7882,
+  "companies": [
+    {
+      "name": "Accenture",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/accenture.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.067Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Accolite",
+      "problemCount": 17,
+      "logoUrl": "assets/company-logos/accolite.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.075Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Acko",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/acko.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.082Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Activision",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/activision.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.089Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Adobe",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/adobe.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.098Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Affirm",
+      "problemCount": 11,
+      "logoUrl": "assets/company-logos/affirm.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.105Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Agoda",
+      "problemCount": 40,
+      "logoUrl": "assets/company-logos/agoda.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.114Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Airbnb",
+      "problemCount": 58,
+      "logoUrl": "assets/company-logos/airbnb.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.123Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Airbus SE",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/airbus-se.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.130Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Airtel",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/airtel.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.137Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Airwallex",
+      "problemCount": 1,
+      "logoUrl": "assets/company-logos/airwallex.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.142Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Akamai",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/akamai.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.148Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Akuna Capital",
+      "problemCount": 23,
+      "logoUrl": "assets/company-logos/akuna-capital.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.154Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Alibaba",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/alibaba.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.161Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Altimetrik",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/altimetrik.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.168Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Amadeus",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/amadeus.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.174Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/amazon.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.183Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "AMD",
+      "problemCount": 11,
+      "logoUrl": "assets/company-logos/amd.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.035Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Amdocs",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/amdocs.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.188Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "American Express",
+      "problemCount": 23,
+      "logoUrl": "assets/company-logos/american-express.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.195Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Analytics quotient",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/analytics-quotient.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.201Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Anduril",
+      "problemCount": 32,
+      "logoUrl": "assets/company-logos/anduril.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.209Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Aon",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/aon.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.220Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Apollo.io",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/apollo-io.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.228Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "AppDynamics",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/appdynamics.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.235Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "AppFolio",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/appfolio.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.241Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Apple",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/apple.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.250Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Applied Intuition",
+      "problemCount": 12,
+      "logoUrl": "assets/company-logos/applied-intuition.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.257Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "AQR Capital Management",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/aqr-capital-management.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.058Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Arcesium",
+      "problemCount": 20,
+      "logoUrl": "assets/company-logos/arcesium.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.263Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Arista Networks",
+      "problemCount": 38,
+      "logoUrl": "assets/company-logos/arista-networks.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.270Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Asana",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/asana.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.275Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "athenahealth",
+      "problemCount": 11,
+      "logoUrl": "assets/company-logos/athenahealth.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.541Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Atlassian",
+      "problemCount": 73,
+      "logoUrl": "assets/company-logos/atlassian.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.283Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Attentive",
+      "problemCount": 9,
+      "logoUrl": "assets/company-logos/attentive.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.289Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Audible",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/audible.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.292Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Aurora",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/aurora.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.299Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Autodesk",
+      "problemCount": 31,
+      "logoUrl": "assets/company-logos/autodesk.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.305Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Avalara",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/avalara.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.310Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Avito",
+      "problemCount": 9,
+      "logoUrl": "assets/company-logos/avito.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.315Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Axon",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/axon.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.321Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Baidu",
+      "problemCount": 10,
+      "logoUrl": "assets/company-logos/baidu.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.345Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Bank of America",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/bank-of-america.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.351Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Barclays",
+      "problemCount": 18,
+      "logoUrl": "assets/company-logos/barclays.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.356Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Bentley Systems",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/bentley-systems.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.361Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "BharatPe",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/bharatpe.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.365Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "BILL Holdings",
+      "problemCount": 1,
+      "logoUrl": "assets/company-logos/bill-holdings.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.327Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "BitGo",
+      "problemCount": 10,
+      "logoUrl": "assets/company-logos/bitgo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.372Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "BlackRock",
+      "problemCount": 17,
+      "logoUrl": "assets/company-logos/blackrock.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.376Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "BlackStone",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/blackstone.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.381Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "blinkit",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/blinkit.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.548Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Blizzard",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/blizzard.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.387Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Block",
+      "problemCount": 14,
+      "logoUrl": "assets/company-logos/block.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.393Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Bloomberg",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/bloomberg.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.400Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "BNY Mellon",
+      "problemCount": 21,
+      "logoUrl": "assets/company-logos/bny-mellon.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.333Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Bolt",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/bolt.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.406Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Booking.com",
+      "problemCount": 16,
+      "logoUrl": "assets/company-logos/booking-com.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.410Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Bosch",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/bosch.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.416Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Box",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/box.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.422Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "BP",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/bp.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.339Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Braze",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/braze.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.426Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Brex",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/brex.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.431Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Bridgewater Associates",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/bridgewater-associates.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.436Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "ByteDance",
+      "problemCount": 64,
+      "logoUrl": "assets/company-logos/bytedance.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.442Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Cadence",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/cadence.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.478Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Canonical",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/canonical.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.482Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Capgemini",
+      "problemCount": 25,
+      "logoUrl": "assets/company-logos/capgemini.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.488Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Capital One",
+      "problemCount": 47,
+      "logoUrl": "assets/company-logos/capital-one.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.495Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Careem",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/careem.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.500Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "CARS24",
+      "problemCount": 8,
+      "logoUrl": "assets/company-logos/cars24.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.447Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "carwale",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/carwale.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.554Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Cashfree",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/cashfree.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.506Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "CEDCOSS",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/cedcoss.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.452Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Celigo",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/celigo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.512Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Chewy",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/chewy.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.517Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Chime",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/chime.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.522Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "ciena",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/ciena.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.560Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Circle",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/circle.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.527Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Cisco",
+      "problemCount": 87,
+      "logoUrl": "assets/company-logos/cisco.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.534Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Citadel",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/citadel.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.541Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Citigroup",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/citigroup.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.547Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Citrix",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/citrix.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.553Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Clari",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/clari.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.557Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Cleartrip",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/cleartrip.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.563Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Cloudera",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/cloudera.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.571Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "problemCount": 10,
+      "logoUrl": "assets/company-logos/cloudflare.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.576Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "CME Group",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/cme-group.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.457Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Coforge",
+      "problemCount": 125,
+      "logoUrl": "assets/company-logos/coforge.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.582Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Cognizant",
+      "problemCount": 29,
+      "logoUrl": "assets/company-logos/cognizant.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.589Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Cohesity",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/cohesity.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.596Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Coinbase",
+      "problemCount": 12,
+      "logoUrl": "assets/company-logos/coinbase.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.602Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Comcast",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/comcast.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.606Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Commvault",
+      "problemCount": 11,
+      "logoUrl": "assets/company-logos/commvault.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.612Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Compass",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/compass.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.618Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Confluent",
+      "problemCount": 12,
+      "logoUrl": "assets/company-logos/confluent.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.626Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "ConsultAdd",
+      "problemCount": 11,
+      "logoUrl": "assets/company-logos/consultadd.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.632Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Coupang",
+      "problemCount": 49,
+      "logoUrl": "assets/company-logos/coupang.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.638Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Coursera",
+      "problemCount": 11,
+      "logoUrl": "assets/company-logos/coursera.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.643Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Coveo",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/coveo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.647Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "CRED",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/cred.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.462Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Credit Karma",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/credit-karma.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.651Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Criteo",
+      "problemCount": 8,
+      "logoUrl": "assets/company-logos/criteo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.657Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "CrowdStrike",
+      "problemCount": 11,
+      "logoUrl": "assets/company-logos/crowdstrike.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.664Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Cruise",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/cruise.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.668Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "CTC",
+      "problemCount": 1,
+      "logoUrl": "assets/company-logos/ctc.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.466Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "CureFit",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/curefit.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.673Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "CVENT",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/cvent.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.472Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Darwinbox",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/darwinbox.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.704Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Databricks",
+      "problemCount": 34,
+      "logoUrl": "assets/company-logos/databricks.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.712Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Datadog",
+      "problemCount": 20,
+      "logoUrl": "assets/company-logos/datadog.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.717Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Dataminr",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/dataminr.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.721Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "DE Shaw",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/de-shaw.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.680Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Delhivery",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/delhivery.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.728Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Deliveroo",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/deliveroo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.739Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Dell",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/dell.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.749Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Deloitte",
+      "problemCount": 27,
+      "logoUrl": "assets/company-logos/deloitte.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.761Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "DeltaX",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/deltax.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.766Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Deutsche Bank",
+      "problemCount": 30,
+      "logoUrl": "assets/company-logos/deutsche-bank.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.773Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "DevRev",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/devrev.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.780Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Devsinc",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/devsinc.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.785Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Devtron",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/devtron.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.790Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Directi",
+      "problemCount": 9,
+      "logoUrl": "assets/company-logos/directi.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.797Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Disney",
+      "problemCount": 19,
+      "logoUrl": "assets/company-logos/disney.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.805Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Docusign",
+      "problemCount": 34,
+      "logoUrl": "assets/company-logos/docusign.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.814Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "DoorDash",
+      "problemCount": 88,
+      "logoUrl": "assets/company-logos/doordash.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.822Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "DP world",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/dp-world.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.686Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Dream11",
+      "problemCount": 11,
+      "logoUrl": "assets/company-logos/dream11.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.829Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Dropbox",
+      "problemCount": 25,
+      "logoUrl": "assets/company-logos/dropbox.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.836Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Druva",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/druva.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.842Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "DRW",
+      "problemCount": 9,
+      "logoUrl": "assets/company-logos/drw.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.692Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Dunzo",
+      "problemCount": 8,
+      "logoUrl": "assets/company-logos/dunzo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.847Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Duolingo",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/duolingo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.855Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "DXC Technology",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/dxc-technology.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.695Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "EarnIn",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/earnin.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.873Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "eBay",
+      "problemCount": 78,
+      "logoUrl": "assets/company-logos/ebay.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.568Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Edelweiss Group",
+      "problemCount": 1,
+      "logoUrl": "assets/company-logos/edelweiss-group.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.879Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Electronic Arts",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/electronic-arts.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.883Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "EPAM Systems",
+      "problemCount": 43,
+      "logoUrl": "assets/company-logos/epam-systems.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.862Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Epic Systems",
+      "problemCount": 12,
+      "logoUrl": "assets/company-logos/epic-systems.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.889Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Expedia",
+      "problemCount": 49,
+      "logoUrl": "assets/company-logos/expedia.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.896Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "EY",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/ey.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.867Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "FactSet",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/factset.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.908Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Faire",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/faire.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.912Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Fastenal",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/fastenal.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.917Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Fidelity",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/fidelity.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.924Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Fiverr",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/fiverr.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.929Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Flexera",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/flexera.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.933Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Flexport",
+      "problemCount": 10,
+      "logoUrl": "assets/company-logos/flexport.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.939Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Flipkart",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/flipkart.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.945Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Fortinet",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/fortinet.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.950Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "fourkites",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/fourkites.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.574Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "FPT",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/fpt.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.902Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Freecharge",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/freecharge.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.956Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "FreshWorks",
+      "problemCount": 9,
+      "logoUrl": "assets/company-logos/freshworks.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.962Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Gameskraft",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/gameskraft.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.986Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Garmin",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/garmin.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.993Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "GE Digital",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/ge-digital.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.966Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "GE Healthcare",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/ge-healthcare.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.971Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Geico",
+      "problemCount": 20,
+      "logoUrl": "assets/company-logos/geico.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.998Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "General Motors",
+      "problemCount": 8,
+      "logoUrl": "assets/company-logos/general-motors.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.004Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Genpact",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/genpact.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.010Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "GoDaddy",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/godaddy.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.015Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Gojek",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/gojek.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.020Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Goldman Sachs",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/goldman-sachs.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.027Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Google",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/google.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.035Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Grab",
+      "problemCount": 13,
+      "logoUrl": "assets/company-logos/grab.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.040Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Grammarly",
+      "problemCount": 27,
+      "logoUrl": "assets/company-logos/grammarly.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.046Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Graviton",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/graviton.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.050Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Groupon",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/groupon.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.055Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Groww",
+      "problemCount": 8,
+      "logoUrl": "assets/company-logos/groww.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.061Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Grubhub",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/grubhub.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.066Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "GSA Capital",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/gsa-capital.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.976Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "GSN Games",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/gsn-games.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:02.980Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Guidewire",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/guidewire.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.072Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Gusto",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/gusto.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.076Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Harness",
+      "problemCount": 1,
+      "logoUrl": "assets/company-logos/harness.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.103Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "HashedIn",
+      "problemCount": 23,
+      "logoUrl": "assets/company-logos/hashedin.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.116Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "HCL",
+      "problemCount": 9,
+      "logoUrl": "assets/company-logos/hcl.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.081Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Hertz",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/hertz.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.120Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Highspot",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/highspot.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.132Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "HiLabs",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/hilabs.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.127Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Hive",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/hive.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.137Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Hiver",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/hiver.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.141Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Honeywell",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/honeywell.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.147Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Hotstar",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/hotstar.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.152Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Houzz",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/houzz.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.157Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "HP",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/hp.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.086Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "HPE",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/hpe.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.091Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "HSBC",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/hsbc.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.096Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Huawei",
+      "problemCount": 15,
+      "logoUrl": "assets/company-logos/huawei.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.164Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Hubspot",
+      "problemCount": 10,
+      "logoUrl": "assets/company-logos/hubspot.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.170Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Hudson River Trading",
+      "problemCount": 9,
+      "logoUrl": "assets/company-logos/hudson-river-trading.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.176Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Hulu",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/hulu.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.180Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "IBM",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/ibm.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.185Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "IIT Bombay",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/iit-bombay.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.190Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "IMC",
+      "problemCount": 8,
+      "logoUrl": "assets/company-logos/imc.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.196Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Indeed",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/indeed.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.223Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "INDmoney",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/indmoney.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.201Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Info Edge",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/info-edge.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.228Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Informatica",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/informatica.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.234Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Infosys",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/infosys.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.241Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "InMobi",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/inmobi.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.218Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "instabase",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/instabase.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.580Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Instacart",
+      "problemCount": 15,
+      "logoUrl": "assets/company-logos/instacart.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.246Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Intel",
+      "problemCount": 25,
+      "logoUrl": "assets/company-logos/intel.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.251Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Intuit",
+      "problemCount": 73,
+      "logoUrl": "assets/company-logos/intuit.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.257Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "IVP",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/ivp.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.206Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "IXL",
+      "problemCount": 17,
+      "logoUrl": "assets/company-logos/ixl.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.212Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "J.P. Morgan",
+      "problemCount": 79,
+      "logoUrl": "assets/company-logos/j-p--morgan.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.263Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Jane Street",
+      "problemCount": 11,
+      "logoUrl": "assets/company-logos/jane-street.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.268Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "jio",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/jio.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.586Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "josh technology",
+      "problemCount": 22,
+      "logoUrl": "assets/company-logos/josh-technology.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.593Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Jump Trading",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/jump-trading.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.272Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Juniper Networks",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/juniper-networks.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.277Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Juspay",
+      "problemCount": 11,
+      "logoUrl": "assets/company-logos/juspay.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.283Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Kakao",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/kakao.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.292Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Karat",
+      "problemCount": 15,
+      "logoUrl": "assets/company-logos/karat.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.300Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "KLA",
+      "problemCount": 8,
+      "logoUrl": "assets/company-logos/kla.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.288Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Komprise",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/komprise.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.304Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Larsen & Toubro",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/larsen---toubro.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.319Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Lendingkart Technologies",
+      "problemCount": 1,
+      "logoUrl": "assets/company-logos/lendingkart-technologies.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.323Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Lenskart",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/lenskart.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.327Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Licious",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/licious.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.333Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Liftoff",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/liftoff.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.338Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "LINE",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/line.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.310Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "LinkedIn",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/linkedin.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.344Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "LiveRamp",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/liveramp.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.350Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Lowe's",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/lowe-s.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.355Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "LTI",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/lti.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.315Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Lucid",
+      "problemCount": 8,
+      "logoUrl": "assets/company-logos/lucid.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.360Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Luxoft",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/luxoft.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.365Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Lyft",
+      "problemCount": 26,
+      "logoUrl": "assets/company-logos/lyft.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.372Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Machine Zone",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/machine-zone.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.387Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "MakeMyTrip",
+      "problemCount": 29,
+      "logoUrl": "assets/company-logos/makemytrip.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.393Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Mapbox",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/mapbox.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.396Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "MAQ Software",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/maq-software.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.377Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Mastercard",
+      "problemCount": 12,
+      "logoUrl": "assets/company-logos/mastercard.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.402Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "MathWorks",
+      "problemCount": 29,
+      "logoUrl": "assets/company-logos/mathworks.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.408Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "McKinsey",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/mckinsey.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.413Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Media.net",
+      "problemCount": 39,
+      "logoUrl": "assets/company-logos/media-net.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.419Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Meesho",
+      "problemCount": 22,
+      "logoUrl": "assets/company-logos/meesho.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.425Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Mercari",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/mercari.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.430Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Meta",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/meta.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.438Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/microsoft.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.444Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Microstrategy",
+      "problemCount": 9,
+      "logoUrl": "assets/company-logos/microstrategy.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.449Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Millennium",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/millennium.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.454Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Mindtickle",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/mindtickle.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.464Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "MindTree",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/mindtree.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.459Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Miro",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/miro.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.469Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Mitsogo",
+      "problemCount": 16,
+      "logoUrl": "assets/company-logos/mitsogo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.475Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Mixpanel",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/mixpanel.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.480Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Mobileye",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/mobileye.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.485Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Moengage",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/moengage.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.490Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Moloco",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/moloco.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.496Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "problemCount": 14,
+      "logoUrl": "assets/company-logos/mongodb.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.501Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Morgan Stanley",
+      "problemCount": 51,
+      "logoUrl": "assets/company-logos/morgan-stanley.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.510Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Mountblue",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/mountblue.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.514Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Moveworks",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/moveworks.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.520Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "MSCI",
+      "problemCount": 1,
+      "logoUrl": "assets/company-logos/msci.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.381Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Myntra",
+      "problemCount": 22,
+      "logoUrl": "assets/company-logos/myntra.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.527Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Nagarro",
+      "problemCount": 9,
+      "logoUrl": "assets/company-logos/nagarro.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.538Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "National Instruments",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/national-instruments.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.544Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "National Payments Corporation of India",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/national-payments-corporation-of-india.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.549Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Navan",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/navan.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.555Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Navi",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/navi.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.562Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "NCR",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/ncr.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.532Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "NetApp",
+      "problemCount": 10,
+      "logoUrl": "assets/company-logos/netapp.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.567Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "NetEase",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/netease.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.570Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Netflix",
+      "problemCount": 38,
+      "logoUrl": "assets/company-logos/netflix.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.576Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Netskope",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/netskope.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.581Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Netsuite",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/netsuite.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.585Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Nextdoor",
+      "problemCount": 8,
+      "logoUrl": "assets/company-logos/nextdoor.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.589Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Niantic",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/niantic.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.595Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Nielsen",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/nielsen.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.601Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Nike",
+      "problemCount": 10,
+      "logoUrl": "assets/company-logos/nike.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.605Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "NinjaCart",
+      "problemCount": 1,
+      "logoUrl": "assets/company-logos/ninjacart.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.609Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Nokia",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/nokia.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.615Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Nordstrom",
+      "problemCount": 10,
+      "logoUrl": "assets/company-logos/nordstrom.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.620Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Notion",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/notion.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.626Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Nuro",
+      "problemCount": 9,
+      "logoUrl": "assets/company-logos/nuro.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.632Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Nutanix",
+      "problemCount": 60,
+      "logoUrl": "assets/company-logos/nutanix.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.640Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Nvidia",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/nvidia.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.647Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Nykaa",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/nykaa.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.652Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Odoo",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/odoo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.663Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Okta",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/okta.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.668Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "OKX",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/okx.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.658Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Ola Cabs",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/ola-cabs.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.673Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "problemCount": 11,
+      "logoUrl": "assets/company-logos/openai.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.678Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Opendoor",
+      "problemCount": 1,
+      "logoUrl": "assets/company-logos/opendoor.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.683Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "opentext",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/opentext.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.600Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Optiver",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/optiver.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.688Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Optum",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/optum.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.694Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Oracle",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/oracle.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.701Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Otter.ai",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/otter-ai.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.707Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "oyo",
+      "problemCount": 9,
+      "logoUrl": "assets/company-logos/oyo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.605Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Ozon",
+      "problemCount": 14,
+      "logoUrl": "assets/company-logos/ozon.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.712Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Palantir Technologies",
+      "problemCount": 29,
+      "logoUrl": "assets/company-logos/palantir-technologies.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.718Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Palo Alto Networks",
+      "problemCount": 26,
+      "logoUrl": "assets/company-logos/palo-alto-networks.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.723Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Patreon",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/patreon.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.727Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Paycom",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/paycom.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.745Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "PayPal",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/paypal.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.734Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "PayPay",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/paypay.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.737Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Paytm",
+      "problemCount": 30,
+      "logoUrl": "assets/company-logos/paytm.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.752Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "PayU",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/payu.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.741Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "peak6",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/peak6.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.610Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Peloton",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/peloton.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.757Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "persistent systems",
+      "problemCount": 10,
+      "logoUrl": "assets/company-logos/persistent-systems.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.617Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "PhonePe",
+      "problemCount": 93,
+      "logoUrl": "assets/company-logos/phonepe.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.764Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Pinterest",
+      "problemCount": 49,
+      "logoUrl": "assets/company-logos/pinterest.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.770Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Pocket Gems",
+      "problemCount": 15,
+      "logoUrl": "assets/company-logos/pocket-gems.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.775Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Point72",
+      "problemCount": 8,
+      "logoUrl": "assets/company-logos/point72.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.780Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Pony.ai",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/pony-ai.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.785Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "PornHub",
+      "problemCount": 9,
+      "logoUrl": "assets/company-logos/pornhub.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.791Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Poshmark",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/poshmark.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.795Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Postmates",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/postmates.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.799Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Publicis Sapient",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/publicis-sapient.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.808Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "PubMatic",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/pubmatic.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.803Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Pure Storage",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/pure-storage.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.814Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Pwc",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/pwc.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.819Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "QBurst",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/qburst.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.824Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Qualcomm",
+      "problemCount": 48,
+      "logoUrl": "assets/company-logos/qualcomm.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.832Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Qualtrics",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/qualtrics.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.838Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Quora",
+      "problemCount": 18,
+      "logoUrl": "assets/company-logos/quora.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.843Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Rakuten",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/rakuten.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.852Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "razorpay",
+      "problemCount": 10,
+      "logoUrl": "assets/company-logos/razorpay.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.624Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "RBC",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/rbc.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.847Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "redbus",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/redbus.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.629Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/reddit.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.858Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Remitly",
+      "problemCount": 8,
+      "logoUrl": "assets/company-logos/remitly.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.864Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Revolut",
+      "problemCount": 11,
+      "logoUrl": "assets/company-logos/revolut.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.870Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Riot Games",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/riot-games.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.874Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Ripple",
+      "problemCount": 12,
+      "logoUrl": "assets/company-logos/ripple.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.879Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Rippling",
+      "problemCount": 16,
+      "logoUrl": "assets/company-logos/rippling.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.883Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Rivian",
+      "problemCount": 9,
+      "logoUrl": "assets/company-logos/rivian.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.888Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Robinhood",
+      "problemCount": 15,
+      "logoUrl": "assets/company-logos/robinhood.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.893Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Roblox",
+      "problemCount": 53,
+      "logoUrl": "assets/company-logos/roblox.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.898Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Roche",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/roche.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.904Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Rokt",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/rokt.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.909Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Roku",
+      "problemCount": 15,
+      "logoUrl": "assets/company-logos/roku.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.914Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Rubrik",
+      "problemCount": 36,
+      "logoUrl": "assets/company-logos/rubrik.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.918Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Salesforce",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/salesforce.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.937Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Samsara",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/samsara.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.943Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Samsung",
+      "problemCount": 73,
+      "logoUrl": "assets/company-logos/samsung.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.946Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "SAP",
+      "problemCount": 39,
+      "logoUrl": "assets/company-logos/sap.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.922Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Scale AI",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/scale-ai.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.950Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Sentry",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/sentry.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.955Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "ServiceNow",
+      "problemCount": 84,
+      "logoUrl": "assets/company-logos/servicenow.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.958Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "ShareChat",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/sharechat.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.963Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Shopee",
+      "problemCount": 10,
+      "logoUrl": "assets/company-logos/shopee.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.966Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Shopify",
+      "problemCount": 8,
+      "logoUrl": "assets/company-logos/shopify.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.971Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Siemens",
+      "problemCount": 25,
+      "logoUrl": "assets/company-logos/siemens.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.976Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "SIG",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/sig.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.926Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Sigmoid",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/sigmoid.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.980Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Slice",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/slice.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.985Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "smartnews",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/smartnews.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.634Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Smartsheet",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/smartsheet.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.991Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Snap",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/snap.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.997Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Snapdeal",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/snapdeal.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.001Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Snowflake",
+      "problemCount": 90,
+      "logoUrl": "assets/company-logos/snowflake.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.005Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Societe Generale",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/societe-generale.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.013Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "SoFi",
+      "problemCount": 18,
+      "logoUrl": "assets/company-logos/sofi.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.009Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Softwire",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/softwire.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.018Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Sony",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/sony.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.021Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "SOTI",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/soti.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:03.932Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "SoundHound",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/soundhound.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.026Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Splunk",
+      "problemCount": 14,
+      "logoUrl": "assets/company-logos/splunk.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.031Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Spotify",
+      "problemCount": 13,
+      "logoUrl": "assets/company-logos/spotify.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.036Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Sprinklr",
+      "problemCount": 41,
+      "logoUrl": "assets/company-logos/sprinklr.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.040Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Squarepoint Capital",
+      "problemCount": 9,
+      "logoUrl": "assets/company-logos/squarepoint-capital.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.045Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Squarespace",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/squarespace.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.049Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "StackAdapt",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/stackadapt.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.054Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Stackline",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/stackline.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.058Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Stripe",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/stripe.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.063Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Sumo Logic",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/sumo-logic.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.067Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Swiggy",
+      "problemCount": 31,
+      "logoUrl": "assets/company-logos/swiggy.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.071Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Synopsys",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/synopsys.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.076Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Tanium",
+      "problemCount": 1,
+      "logoUrl": "assets/company-logos/tanium.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.081Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Target",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/target.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.085Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "tcs",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/tcs.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.639Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Tech Mahindra",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/tech-mahindra.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.090Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Tejas Networks",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/tejas-networks.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.094Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Tekion",
+      "problemCount": 20,
+      "logoUrl": "assets/company-logos/tekion.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.103Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Tencent",
+      "problemCount": 15,
+      "logoUrl": "assets/company-logos/tencent.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.108Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Teradata",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/teradata.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.111Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Tesco",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/tesco.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.116Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Tesla",
+      "problemCount": 46,
+      "logoUrl": "assets/company-logos/tesla.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.120Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Texas Instruments",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/texas-instruments.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.124Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "The Trade Desk",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/the-trade-desk.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.130Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Thomson Reuters",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/thomson-reuters.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.134Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "thoughtspot",
+      "problemCount": 12,
+      "logoUrl": "assets/company-logos/thoughtspot.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.645Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "ThoughtWorks",
+      "problemCount": 8,
+      "logoUrl": "assets/company-logos/thoughtworks.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.139Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "ThousandEyes",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/thousandeyes.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.144Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Tiger Analytics",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/tiger-analytics.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.149Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "TikTok",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/tiktok.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.152Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Tinder",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/tinder.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.157Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Tinkoff",
+      "problemCount": 32,
+      "logoUrl": "assets/company-logos/tinkoff.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.162Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Toast",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/toast.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.166Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Toptal",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/toptal.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.170Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Tower Research Capital",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/tower-research-capital.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.174Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Trexquant",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/trexquant.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.178Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Trilogy",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/trilogy.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.181Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Tripadvisor",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/tripadvisor.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.186Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Turing",
+      "problemCount": 41,
+      "logoUrl": "assets/company-logos/turing.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.194Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Turo",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/turo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.199Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Turvo",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/turvo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.204Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "TuSimple",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/tusimple.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.191Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Twilio",
+      "problemCount": 13,
+      "logoUrl": "assets/company-logos/twilio.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.208Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Twitch",
+      "problemCount": 8,
+      "logoUrl": "assets/company-logos/twitch.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.213Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Two Sigma",
+      "problemCount": 23,
+      "logoUrl": "assets/company-logos/two-sigma.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.218Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Uber",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/uber.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.238Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "UBS",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/ubs.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.222Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "UiPath",
+      "problemCount": 10,
+      "logoUrl": "assets/company-logos/uipath.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.242Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "UKG",
+      "problemCount": 11,
+      "logoUrl": "assets/company-logos/ukg.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.228Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Unity",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/unity.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.247Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Upstart",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/upstart.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.250Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Urban Company",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/urban-company.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.254Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "USAA",
+      "problemCount": 1,
+      "logoUrl": "assets/company-logos/usaa.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.233Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Valve",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/valve.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.267Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Vanguard",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/vanguard.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.270Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Veeva Systems",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/veeva-systems.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.275Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Verily",
+      "problemCount": 12,
+      "logoUrl": "assets/company-logos/verily.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.281Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Veritas",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/veritas.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.285Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Verkada",
+      "problemCount": 15,
+      "logoUrl": "assets/company-logos/verkada.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.290Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Vimeo",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/vimeo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.294Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Virtu Financial",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/virtu-financial.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.298Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Virtusa",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/virtusa.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.303Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Visa",
+      "problemCount": 84,
+      "logoUrl": "assets/company-logos/visa.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.308Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "VK",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/vk.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.258Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "VMware",
+      "problemCount": 20,
+      "logoUrl": "assets/company-logos/vmware.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.262Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Walmart Labs",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/walmart-labs.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.313Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Warnermedia",
+      "problemCount": 10,
+      "logoUrl": "assets/company-logos/warnermedia.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.318Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "WatchGuard",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/watchguard.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.323Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Wayfair",
+      "problemCount": 24,
+      "logoUrl": "assets/company-logos/wayfair.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.329Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Waymo",
+      "problemCount": 10,
+      "logoUrl": "assets/company-logos/waymo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.336Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Wealthfront",
+      "problemCount": 1,
+      "logoUrl": "assets/company-logos/wealthfront.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.348Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Wells Fargo",
+      "problemCount": 15,
+      "logoUrl": "assets/company-logos/wells-fargo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.357Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "WeRide",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/weride.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.342Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Western Digital",
+      "problemCount": 1,
+      "logoUrl": "assets/company-logos/western-digital.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.364Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Whatnot",
+      "problemCount": 7,
+      "logoUrl": "assets/company-logos/whatnot.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.370Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "WinZO",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/winzo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.376Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Wipro",
+      "problemCount": 25,
+      "logoUrl": "assets/company-logos/wipro.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.386Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Wise",
+      "problemCount": 5,
+      "logoUrl": "assets/company-logos/wise.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.391Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Wish",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/wish.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.398Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Wissen Technology",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/wissen-technology.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.404Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Wix",
+      "problemCount": 57,
+      "logoUrl": "assets/company-logos/wix.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.410Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Workday",
+      "problemCount": 8,
+      "logoUrl": "assets/company-logos/workday.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.414Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Works Applications",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/works-applications.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.424Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "WorldQuant",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/worldquant.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.433Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "X",
+      "problemCount": 52,
+      "logoUrl": "assets/company-logos/x.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.440Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Yahoo",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/yahoo.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.444Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Yandex",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/yandex.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.448Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Yelp",
+      "problemCount": 29,
+      "logoUrl": "assets/company-logos/yelp.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.452Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Yext",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/yext.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.457Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Zalando",
+      "problemCount": 6,
+      "logoUrl": "assets/company-logos/zalando.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.470Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Zendesk",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/zendesk.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.474Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Zenefits",
+      "problemCount": 21,
+      "logoUrl": "assets/company-logos/zenefits.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.479Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Zepto",
+      "problemCount": 31,
+      "logoUrl": "assets/company-logos/zepto.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.485Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Zeta",
+      "problemCount": 21,
+      "logoUrl": "assets/company-logos/zeta.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.489Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "zeta suite",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/zeta-suite.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.650Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Zillow",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/zillow.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.493Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "ZipRecruiter",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/ziprecruiter.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.498Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Zluri",
+      "problemCount": 2,
+      "logoUrl": "assets/company-logos/zluri.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.502Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Zoho",
+      "problemCount": 100,
+      "logoUrl": "assets/company-logos/zoho.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.511Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Zomato",
+      "problemCount": 24,
+      "logoUrl": "assets/company-logos/zomato.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.515Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Zoom",
+      "problemCount": 3,
+      "logoUrl": "assets/company-logos/zoom.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.520Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Zoox",
+      "problemCount": 9,
+      "logoUrl": "assets/company-logos/zoox.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.525Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Zopsmart",
+      "problemCount": 18,
+      "logoUrl": "assets/company-logos/zopsmart.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.529Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "ZS Associates",
+      "problemCount": 9,
+      "logoUrl": "assets/company-logos/zs-associates.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.461Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "ZScaler",
+      "problemCount": 24,
+      "logoUrl": "assets/company-logos/zscaler.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.465Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    },
+    {
+      "name": "Zynga",
+      "problemCount": 4,
+      "logoUrl": "assets/company-logos/zynga.svg",
+      "csvFiles": 5,
+      "lastUpdated": "2025-09-01T19:50:04.534Z",
+      "hasProblems": true,
+      "categories": [
+        "recent",
+        "monthly",
+        "comprehensive"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Page Test</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/themes.css">
+</head>
+<body>
+    <div id="test-results"></div>
+    
+    <!-- Mock company page elements -->
+    <div id="company-name"></div>
+    <div id="company-progress"></div>
+    <div id="company-progress-fill"></div>
+    <div id="problems-grid"></div>
+    <div class="no-problems" style="display: none;">
+        <p>No problems found</p>
+    </div>
+    
+    <!-- Filter buttons -->
+    <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="easy">Easy</button>
+        <button class="filter-btn" data-filter="medium">Medium</button>
+        <button class="filter-btn" data-filter="hard">Hard</button>
+    </div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/dataManager.js"></script>
+    <script src="js/stateManager.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/router.js"></script>
+    <script>
+        // Test company page functionality
+        function testCompanyPage() {
+            const results = document.getElementById('test-results');
+            let testsPassed = 0;
+            let totalTests = 0;
+            
+            function test(name, testFn) {
+                totalTests++;
+                try {
+                    testFn();
+                    results.innerHTML += `<div style="color: green;">✓ ${name}</div>`;
+                    testsPassed++;
+                } catch (error) {
+                    results.innerHTML += `<div style="color: red;">✗ ${name}: ${error.message}</div>`;
+                }
+            }
+            
+            // Test 1: Check if required functions exist
+            test('Required functions exist', () => {
+                if (typeof calculateDifficultyCounts !== 'function') throw new Error('calculateDifficultyCounts not found');
+                if (typeof updateFilterButtonCounts !== 'function') throw new Error('updateFilterButtonCounts not found');
+                if (typeof filterProblemsByDifficulty !== 'function') throw new Error('filterProblemsByDifficulty not found');
+                if (typeof updateCompanyHeader !== 'function') throw new Error('updateCompanyHeader not found');
+                if (typeof applyUserStateToProblems !== 'function') throw new Error('applyUserStateToProblems not found');
+            });
+            
+            // Test 2: Test difficulty count calculation
+            test('Difficulty count calculation', () => {
+                const mockProblems = [
+                    { difficulty: 'EASY' },
+                    { difficulty: 'MEDIUM' },
+                    { difficulty: 'HARD' },
+                    { difficulty: 'EASY' }
+                ];
+                const counts = calculateDifficultyCounts(mockProblems);
+                if (counts.all !== 4) throw new Error('Total count incorrect');
+                if (counts.easy !== 2) throw new Error('Easy count incorrect');
+                if (counts.medium !== 1) throw new Error('Medium count incorrect');
+                if (counts.hard !== 1) throw new Error('Hard count incorrect');
+            });
+            
+            // Test 3: Test problem filtering
+            test('Problem filtering by difficulty', () => {
+                const mockProblems = [
+                    { difficulty: 'EASY', title: 'Easy Problem' },
+                    { difficulty: 'MEDIUM', title: 'Medium Problem' },
+                    { difficulty: 'HARD', title: 'Hard Problem' }
+                ];
+                
+                const easyProblems = filterProblemsByDifficulty(mockProblems, 'easy');
+                if (easyProblems.length !== 1) throw new Error('Easy filter failed');
+                
+                const allProblems = filterProblemsByDifficulty(mockProblems, 'all');
+                if (allProblems.length !== 3) throw new Error('All filter failed');
+            });
+            
+            // Test 4: Test UIComponents.createProblemCard
+            test('Problem card creation', () => {
+                const mockProblem = {
+                    id: 'test-1',
+                    title: 'Test Problem',
+                    difficulty: 'MEDIUM',
+                    topics: ['Array', 'Hash Table'],
+                    frequency: 85.5,
+                    acceptanceRate: 0.45,
+                    link: 'https://leetcode.com/problems/test',
+                    solved: false,
+                    bookmarked: false
+                };
+                
+                const card = UIComponents.createProblemCard(mockProblem);
+                if (!card) throw new Error('Card not created');
+                if (!card.classList.contains('problem-card')) throw new Error('Card missing class');
+                if (card.getAttribute('data-problem-id') !== 'test-1') throw new Error('Problem ID not set');
+            });
+            
+            // Test 5: Test StateManager integration
+            test('StateManager integration', () => {
+                const stateManager = new StateManager();
+                
+                // Test solved status
+                const result1 = stateManager.updateSolvedStatus('test-problem', true);
+                if (!result1) throw new Error('Failed to update solved status');
+                if (!stateManager.isProblemSolved('test-problem')) throw new Error('Problem not marked as solved');
+                
+                // Test bookmark status
+                const result2 = stateManager.updateBookmarkStatus('test-problem', true);
+                if (!result2) throw new Error('Failed to update bookmark status');
+                if (!stateManager.isProblemBookmarked('test-problem')) throw new Error('Problem not bookmarked');
+            });
+            
+            results.innerHTML += `<div style="margin-top: 20px; font-weight: bold;">Tests passed: ${testsPassed}/${totalTests}</div>`;
+            
+            if (testsPassed === totalTests) {
+                results.innerHTML += `<div style="color: green; font-weight: bold;">All tests passed! Company page implementation is working correctly.</div>`;
+            } else {
+                results.innerHTML += `<div style="color: red; font-weight: bold;">Some tests failed. Check the implementation.</div>`;
+            }
+        }
+        
+        // Run tests when page loads
+        window.addEventListener('load', testCompanyPage);
+    </script>
+</body>
+</html>

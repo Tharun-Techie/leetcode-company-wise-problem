@@ -1,0 +1,596 @@
+/* Enhanced Loading States and Skeleton Screens */
+/* Provides smooth loading experiences with skeleton screens and progress indicators */
+
+/* Skeleton Loading Animations */
+@keyframes skeleton-loading {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Base Skeleton Styles */
+.skeleton-card {
+  background: var(--surface-color);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  border: 1px solid var(--border-color);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.skeleton-text {
+  background: linear-gradient(
+    90deg,
+    var(--surface-color) 25%,
+    var(--surface-hover) 50%,
+    var(--surface-color) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  border-radius: var(--radius-sm);
+  height: 1em;
+  margin-bottom: var(--spacing-sm);
+}
+
+.skeleton-text:last-child {
+  margin-bottom: 0;
+}
+
+.skeleton-text.short {
+  width: 60%;
+}
+
+.skeleton-text.medium {
+  width: 80%;
+}
+
+.skeleton-text.long {
+  width: 100%;
+}
+
+/* Company Card Skeleton */
+.company-card-skeleton {
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.company-card-skeleton .skeleton-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.company-card-skeleton .skeleton-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(
+    90deg,
+    var(--surface-color) 25%,
+    var(--surface-hover) 50%,
+    var(--surface-color) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  flex-shrink: 0;
+}
+
+.company-card-skeleton .skeleton-title {
+  height: 1.5em;
+  width: 70%;
+}
+
+.company-card-skeleton .skeleton-stats {
+  margin-top: auto;
+}
+
+.company-card-skeleton .skeleton-stat {
+  margin-bottom: var(--spacing-md);
+}
+
+.company-card-skeleton .skeleton-progress-bar {
+  height: 8px;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(
+    90deg,
+    var(--surface-color) 25%,
+    var(--surface-hover) 50%,
+    var(--surface-color) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+}
+
+/* Problem Card Skeleton */
+.problem-card-skeleton {
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.problem-card-skeleton .skeleton-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+}
+
+.problem-card-skeleton .skeleton-title {
+  height: 1.25em;
+  flex: 1;
+}
+
+.problem-card-skeleton .skeleton-badge {
+  width: 60px;
+  height: 24px;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(
+    90deg,
+    var(--surface-color) 25%,
+    var(--surface-hover) 50%,
+    var(--surface-color) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  flex-shrink: 0;
+}
+
+.problem-card-skeleton .skeleton-topics {
+  display: flex;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
+.problem-card-skeleton .skeleton-tag {
+  width: 60px;
+  height: 20px;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(
+    90deg,
+    var(--surface-color) 25%,
+    var(--surface-hover) 50%,
+    var(--surface-color) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+}
+
+.problem-card-skeleton .skeleton-meta {
+  display: flex;
+  gap: var(--spacing-lg);
+  margin-top: auto;
+}
+
+.problem-card-skeleton .skeleton-meta .skeleton-text {
+  width: 80px;
+  height: 0.875em;
+}
+
+/* Search Result Skeleton */
+.search-result-skeleton {
+  padding: var(--spacing-md);
+  min-height: 100px;
+}
+
+.search-result-skeleton .skeleton-company-badge {
+  width: 80px;
+  height: 20px;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(
+    90deg,
+    var(--surface-color) 25%,
+    var(--surface-hover) 50%,
+    var(--surface-color) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Skeleton Container Layouts */
+.skeleton-company-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--spacing-lg);
+  padding: var(--spacing-lg) 0;
+}
+
+.skeleton-problem-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg) 0;
+}
+
+.skeleton-search-result-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg) 0;
+}
+
+/* Spinner Loaders */
+.spinner-loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  padding: var(--spacing-2xl);
+}
+
+.spinner-loader {
+  text-align: center;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--border-color);
+  border-top: 3px solid var(--primary-color);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto var(--spacing-md);
+}
+
+.spinner-message {
+  color: var(--text-secondary);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+}
+
+/* Progress Bars */
+.progress-loader {
+  padding: var(--spacing-lg);
+  text-align: center;
+}
+
+.progress-message {
+  color: var(--text-secondary);
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 8px;
+  background-color: var(--surface-color);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  margin-bottom: var(--spacing-sm);
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  border-radius: var(--radius-sm);
+  transition: width 0.3s ease-out;
+  width: 0%;
+}
+
+.progress-percentage {
+  color: var(--text-muted);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+}
+
+/* Button Loading States */
+.btn.loading {
+  position: relative;
+  color: transparent !important;
+  pointer-events: none;
+}
+
+.button-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  border: 2px solid transparent;
+  border-top: 2px solid currentColor;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.btn.loading::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  border-radius: inherit;
+  opacity: 0.7;
+}
+
+/* Page Loading Overlay */
+.page-loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.page-loading-overlay.show {
+  opacity: 1;
+}
+
+.page-loading-overlay.hide {
+  opacity: 0;
+}
+
+.page-loading-content {
+  text-align: center;
+  background: white;
+  padding: var(--spacing-2xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  max-width: 300px;
+  width: 90%;
+}
+
+.page-loading-spinner {
+  width: 48px;
+  height: 48px;
+  border: 4px solid var(--border-color);
+  border-top: 4px solid var(--primary-color);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto var(--spacing-lg);
+}
+
+.page-loading-message {
+  color: var(--text-primary);
+  font-size: var(--font-size-base);
+  font-weight: 500;
+}
+
+/* Loading State Containers */
+.loading-state {
+  position: relative;
+  min-height: 200px;
+}
+
+.loading-state::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.loading-state.active::before {
+  opacity: 1;
+}
+
+/* Lazy Loading Images */
+img[data-src] {
+  background: linear-gradient(
+    90deg,
+    var(--surface-color) 25%,
+    var(--surface-hover) 50%,
+    var(--surface-color) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+}
+
+img.loaded {
+  animation: fade-in 0.3s ease-out;
+}
+
+img.error {
+  background: var(--surface-color);
+  animation: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .skeleton-company-card-container {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+  
+  .skeleton-problem-card-container {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
+  }
+  
+  .spinner-loader-container {
+    min-height: 150px;
+    padding: var(--spacing-lg);
+  }
+  
+  .page-loading-content {
+    padding: var(--spacing-lg);
+  }
+  
+  .page-loading-spinner {
+    width: 36px;
+    height: 36px;
+    border-width: 3px;
+  }
+}
+
+/* Dark Theme Support */
+[data-theme="dark"] .skeleton-text,
+[data-theme="dark"] .skeleton-logo,
+[data-theme="dark"] .skeleton-badge,
+[data-theme="dark"] .skeleton-tag,
+[data-theme="dark"] .skeleton-progress-bar,
+[data-theme="dark"] .skeleton-company-badge {
+  background: linear-gradient(
+    90deg,
+    var(--dark-surface-color) 25%,
+    var(--dark-surface-hover) 50%,
+    var(--dark-surface-color) 75%
+  );
+  background-size: 200% 100%;
+}
+
+[data-theme="dark"] .skeleton-card {
+  background: var(--dark-surface-color);
+  border-color: var(--dark-border-color);
+}
+
+[data-theme="dark"] .page-loading-overlay {
+  background: rgba(17, 24, 39, 0.9);
+}
+
+[data-theme="dark"] .page-loading-content {
+  background: var(--dark-surface-color);
+  color: var(--dark-text-primary);
+}
+
+[data-theme="dark"] .spinner {
+  border-color: var(--dark-border-color);
+  border-top-color: var(--dark-primary-color);
+}
+
+[data-theme="dark"] .page-loading-spinner {
+  border-color: var(--dark-border-color);
+  border-top-color: var(--dark-primary-color);
+}
+
+[data-theme="dark"] .progress-bar-container {
+  background-color: var(--dark-surface-color);
+}
+
+[data-theme="dark"] img[data-src] {
+  background: linear-gradient(
+    90deg,
+    var(--dark-surface-color) 25%,
+    var(--dark-surface-hover) 50%,
+    var(--dark-surface-color) 75%
+  );
+  background-size: 200% 100%;
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  .skeleton-text,
+  .skeleton-logo,
+  .skeleton-badge,
+  .skeleton-tag,
+  .skeleton-progress-bar,
+  .skeleton-company-badge {
+    animation: none;
+    background: var(--surface-hover);
+  }
+  
+  .skeleton-card {
+    animation: none;
+  }
+  
+  .spinner,
+  .page-loading-spinner,
+  .button-spinner {
+    animation: none;
+    border-top-color: var(--primary-color);
+  }
+  
+  img[data-src] {
+    animation: none;
+    background: var(--surface-hover);
+  }
+  
+  img.loaded {
+    animation: none;
+  }
+  
+  [data-theme="dark"] .skeleton-text,
+  [data-theme="dark"] .skeleton-logo,
+  [data-theme="dark"] .skeleton-badge,
+  [data-theme="dark"] .skeleton-tag,
+  [data-theme="dark"] .skeleton-progress-bar,
+  [data-theme="dark"] .skeleton-company-badge {
+    animation: none;
+    background: var(--dark-surface-hover);
+  }
+  
+  [data-theme="dark"] img[data-src] {
+    animation: none;
+    background: var(--dark-surface-hover);
+  }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+  .skeleton-text,
+  .skeleton-logo,
+  .skeleton-badge,
+  .skeleton-tag,
+  .skeleton-progress-bar,
+  .skeleton-company-badge {
+    background: #e5e7eb;
+    animation: none;
+  }
+  
+  .spinner,
+  .page-loading-spinner,
+  .button-spinner {
+    border-color: #000000;
+    border-top-color: var(--primary-color);
+  }
+}
+
+/* Print Styles */
+@media print {
+  .skeleton-card,
+  .spinner-loader-container,
+  .progress-loader,
+  .page-loading-overlay,
+  .loading-state::before {
+    display: none !important;
+  }
+}

@@ -1,0 +1,582 @@
+/* Accessibility and Focus Styles */
+/* Comprehensive accessibility enhancements for keyboard navigation and screen readers */
+
+/* Skip Links */
+.skip-links {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    z-index: 10000;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: var(--spacing-sm) 0;
+}
+
+.skip-link {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius-sm);
+    font-weight: 500;
+    transition: all var(--transition-fast);
+}
+
+.skip-link:focus {
+    position: static;
+    left: auto;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    margin: 0 var(--spacing-sm);
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    outline: none;
+}
+
+/* Focus Indicators */
+/* High-contrast, visible focus indicators for all interactive elements */
+
+/* Base focus styles */
+*:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Enhanced focus-visible styles for keyboard navigation */
+*:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 5px rgba(59, 130, 246, 0.2);
+}
+
+/* Remove focus outline for mouse users */
+*:focus:not(:focus-visible) {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Specific focus styles for interactive elements */
+.company-card:focus-visible,
+.problem-card:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 5px rgba(59, 130, 246, 0.2);
+    transform: translateY(-2px);
+    z-index: 10;
+}
+
+.btn:focus-visible,
+.filter-btn:focus-visible,
+.back-button:focus-visible,
+.theme-toggle:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 5px rgba(59, 130, 246, 0.2);
+}
+
+.nav-item:focus-visible,
+.nav-link:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 2px;
+    background-color: rgba(59, 130, 246, 0.1);
+}
+
+.search-input:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 1px;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 5px rgba(59, 130, 246, 0.2);
+}
+
+/* Focus styles for problem detail actions */
+.leetcode-link:focus-visible,
+.bookmark-btn:focus-visible,
+.solved-btn:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 5px rgba(59, 130, 246, 0.2);
+}
+
+/* Focus styles for grid items */
+[role="grid"] *:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 5px rgba(59, 130, 246, 0.2);
+    z-index: 10;
+}
+
+/* Screen Reader Only Content */
+.sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+/* Show screen reader content when focused */
+.sr-only:focus {
+    position: static !important;
+    width: auto !important;
+    height: auto !important;
+    padding: var(--spacing-sm) !important;
+    margin: 0 !important;
+    overflow: visible !important;
+    clip: auto !important;
+    white-space: normal !important;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: var(--radius-sm);
+    z-index: 10000;
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+
+    /* Enhanced contrast for focus indicators */
+    *:focus-visible {
+        outline: 4px solid #000000;
+        outline-offset: 2px;
+        box-shadow: 0 0 0 6px #ffffff, 0 0 0 8px #000000;
+    }
+
+    [data-theme="dark"] *:focus-visible {
+        outline: 4px solid #ffffff;
+        outline-offset: 2px;
+        box-shadow: 0 0 0 6px #000000, 0 0 0 8px #ffffff;
+    }
+
+    /* Enhanced contrast for interactive elements */
+    .company-card,
+    .problem-card,
+    .btn,
+    .filter-btn {
+        border-width: 2px;
+    }
+
+    .company-card:focus-visible,
+    .problem-card:focus-visible {
+        border-width: 3px;
+        border-color: #000000;
+    }
+
+    [data-theme="dark"] .company-card:focus-visible,
+    [data-theme="dark"] .problem-card:focus-visible {
+        border-color: #ffffff;
+    }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+
+    /* Remove focus animations for users who prefer reduced motion */
+    *:focus-visible {
+        transition: none !important;
+        animation: none !important;
+    }
+
+    .company-card:focus-visible,
+    .problem-card:focus-visible {
+        transform: none !important;
+    }
+
+    /* Maintain focus visibility without motion */
+    .company-card:focus-visible,
+    .problem-card:focus-visible {
+        border-width: 3px;
+        border-color: var(--primary-color);
+    }
+}
+
+/* Keyboard Navigation Indicators */
+.keyboard-navigation-active {
+    /* Enhanced focus visibility when keyboard navigation is detected */
+}
+
+.keyboard-navigation-active *:focus {
+    outline: 3px solid var(--primary-color) !important;
+    outline-offset: 2px !important;
+    box-shadow: 0 0 0 5px rgba(59, 130, 246, 0.3) !important;
+}
+
+/* Focus Management for Dynamic Content */
+.focus-trap {
+    /* Ensure focus stays within modal or dialog */
+}
+
+.focus-trap *:focus {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* ARIA Live Regions */
+#aria-live-polite,
+#aria-live-assertive,
+#aria-status {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* Accessibility Mode Enhancements */
+.accessibility-mode {
+    /* Enhanced accessibility mode with larger targets and higher contrast */
+}
+
+.accessibility-mode .company-card,
+.accessibility-mode .problem-card,
+.accessibility-mode .btn,
+.accessibility-mode .filter-btn {
+    min-height: 48px;
+    /* Larger touch targets */
+    border-width: 2px;
+}
+
+.accessibility-mode .company-card:focus-visible,
+.accessibility-mode .problem-card:focus-visible {
+    outline: 4px solid var(--primary-color);
+    outline-offset: 3px;
+    box-shadow: 0 0 0 7px rgba(59, 130, 246, 0.3);
+}
+
+.accessibility-mode .search-input {
+    font-size: 18px;
+    /* Larger text for better readability */
+    min-height: 48px;
+}
+
+.accessibility-mode .nav-item,
+.accessibility-mode .nav-link {
+    min-height: 48px;
+    padding: var(--spacing-md);
+}
+
+/* Color Contrast Enhancements */
+.accessibility-mode .text-muted {
+    color: var(--text-secondary);
+    /* Improve contrast for muted text */
+}
+
+.accessibility-mode .difficulty-badge {
+    font-weight: 700;
+    /* Bolder text for better readability */
+    border: 1px solid currentColor;
+}
+
+/* Focus Indicators for Dark Theme */
+[data-theme="dark"] *:focus-visible {
+    outline-color: var(--primary-color);
+    box-shadow: 0 0 0 5px rgba(96, 165, 250, 0.3);
+}
+
+[data-theme="dark"] .company-card:focus-visible,
+[data-theme="dark"] .problem-card:focus-visible {
+    box-shadow: 0 0 0 5px rgba(96, 165, 250, 0.3);
+}
+
+[data-theme="dark"] .search-input:focus-visible {
+    box-shadow: 0 0 0 5px rgba(96, 165, 250, 0.3);
+}
+
+/* Grid Navigation Indicators */
+.grid-navigation-active [role="grid"] {
+    position: relative;
+}
+
+.grid-navigation-active [role="grid"]::before {
+    content: "Use arrow keys to navigate";
+    position: absolute;
+    top: -30px;
+    left: 0;
+    background-color: var(--primary-color);
+    color: white;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-xs);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity var(--transition-fast);
+}
+
+.grid-navigation-active [role="grid"]:focus-within::before {
+    opacity: 1;
+}
+
+/* Enhanced Button States */
+.btn[aria-pressed="true"],
+.filter-btn[aria-pressed="true"] {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.btn[aria-pressed="true"]:focus-visible,
+.filter-btn[aria-pressed="true"]:focus-visible {
+    outline-color: white;
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Status Indicators for Screen Readers */
+.problem-card[aria-describedby] {
+    position: relative;
+}
+
+.problem-status-description {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* Enhanced Link Styles */
+a:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 2px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+/* Form Element Enhancements */
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 1px;
+    border-color: var(--primary-color);
+}
+
+/* Error and Success States */
+.error:focus-visible {
+    outline-color: var(--error-color);
+    box-shadow: 0 0 0 5px rgba(239, 68, 68, 0.2);
+}
+
+.success:focus-visible {
+    outline-color: var(--success-color);
+    box-shadow: 0 0 0 5px rgba(16, 185, 129, 0.2);
+}
+
+/* Loading State Accessibility */
+.loading-container[aria-live] {
+    /* Ensure loading states are announced */
+}
+
+.loading-spinner {
+    /* Add screen reader description for loading spinner */
+}
+
+.loading-spinner::after {
+    content: "Loading content, please wait";
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* Modal and Dialog Accessibility */
+.modal {
+    /* Ensure modals are properly announced */
+}
+
+.modal:focus {
+    outline: none;
+    /* Modal container shouldn't show focus outline */
+}
+
+.modal .modal-content:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Breadcrumb Navigation Enhancement */
+.breadcrumb-nav a:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 1px;
+    background-color: rgba(59, 130, 246, 0.1);
+    border-radius: var(--radius-sm);
+}
+
+/* Table Accessibility (if tables are added) */
+table:focus-within {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+th:focus-visible,
+td:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 1px;
+    background-color: rgba(59, 130, 246, 0.1);
+}
+
+/* Print Accessibility */
+@media print {
+
+    /* Ensure focus indicators are visible in print */
+    *:focus {
+        outline: 2px solid #000000 !important;
+    }
+
+    .sr-only {
+        position: static !important;
+        width: auto !important;
+        height: auto !important;
+        overflow: visible !important;
+        clip: auto !important;
+        white-space: normal !important;
+        font-size: 10pt;
+        color: #000000;
+    }
+}
+
+/* Touch Device Accessibility */
+@media (hover: none) and (pointer: coarse) {
+
+    /* Enhanced touch targets for accessibility */
+    .company-card,
+    .problem-card,
+    .btn,
+    .filter-btn,
+    .nav-item,
+    .back-button,
+    .theme-toggle {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    /* Larger tap targets for small interactive elements */
+    .search-clear,
+    .bookmark-btn,
+    .solved-btn {
+        min-height: 44px;
+        min-width: 44px;
+        padding: var(--spacing-sm);
+    }
+
+    /* Enhanced focus indicators for touch */
+    *:focus-visible {
+        outline-width: 4px;
+        outline-offset: 3px;
+    }
+}
+
+/* Windows High Contrast Mode */
+@media (prefers-contrast: high) {
+
+    /* Ensure compatibility with Windows High Contrast mode */
+    .company-card,
+    .problem-card {
+        border: 2px solid ButtonText;
+    }
+
+    .company-card:focus,
+    .problem-card:focus {
+        border-color: Highlight;
+        background-color: Highlight;
+        color: HighlightText;
+    }
+
+    .btn,
+    .filter-btn {
+        border: 2px solid ButtonText;
+        background-color: ButtonFace;
+        color: ButtonText;
+    }
+
+    .btn:focus,
+    .filter-btn:focus {
+        border-color: Highlight;
+        background-color: Highlight;
+        color: HighlightText;
+    }
+}
+
+/* Focus Management Utilities */
+.focus-visible {
+    /* Class added by JavaScript for keyboard navigation */
+    outline: 3px solid var(--primary-color) !important;
+    outline-offset: 2px !important;
+    box-shadow: 0 0 0 5px rgba(59, 130, 246, 0.2) !important;
+}
+
+/* Ensure focus is visible on all interactive elements */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible,
+[role="button"]:focus-visible,
+[role="link"]:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Enhanced focus for custom interactive elements */
+.company-card[role="button"]:focus-visible,
+.problem-card[role="button"]:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 5px rgba(59, 130, 246, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Keyboard navigation help */
+.keyboard-help {
+    position: fixed;
+    bottom: var(--spacing-lg);
+    right: var(--spacing-lg);
+    background-color: var(--surface-color);
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-md);
+    max-width: 300px;
+    z-index: 1000;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all var(--transition-normal);
+}
+
+.keyboard-help.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.keyboard-help h3 {
+    margin-bottom: var(--spacing-sm);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+}
+
+.keyboard-help ul {
+    list-style: none;
+    font-size: var(--font-size-xs);
+    line-height: 1.4;
+}
+
+.keyboard-help li {
+    margin-bottom: var(--spacing-xs);
+}
+
+.keyboard-help kbd {
+    background-color: var(--border-color);
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 0.9em;
+}

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="LeetCode problems organized by company - Practice coding interview questions from top tech companies">
+    <meta name="keywords"
+        content="leetcode, coding interview, programming, algorithms, data structures, tech companies">
+    <meta name="author" content="LeetCode Company Problems">
+
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="css/accessibility.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <title>LeetCode Company Problems</title>
+</head>
+
+<body>
+    <!-- Header Navigation -->
+    <header class="header" role="banner">
+        <nav class="nav-container" role="navigation" aria-label="Main navigation">
+            <div class="nav-brand">
+                <h1 class="nav-title">
+                    <a href="#/" aria-label="Go to homepage">LeetCode Company Wise Problems</a>
+                </h1>
+            </div>
+
+            <div class="nav-menu">
+                <a href="#/" class="nav-item" data-section="home" aria-label="Go to homepage">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9,22 9,12 15,12 15,22"></polyline>
+                    </svg>
+                    <span>Home</span>
+                </a>
+                
+                <a href="#/favorites" class="nav-item" data-section="favorites" aria-label="View bookmarked problems">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon>
+                    </svg>
+                    <span>Favorites</span>
+                </a>
+            </div>
+
+            <div class="nav-controls">
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <input type="search" id="search-input" class="search-input"
+                        placeholder="Search companies or problems..." aria-label="Search companies or problems"
+                        autocomplete="off">
+                    <button class="search-clear" aria-label="Clear search" style="display: none;">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Theme Toggle -->
+                <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+                    <svg class="theme-icon theme-icon-light" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="theme-icon theme-icon-dark" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Breadcrumb Navigation -->
+        <nav class="breadcrumb-nav" role="navigation" aria-label="Breadcrumb">
+            <div class="breadcrumbs"></div>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-content" role="main" id="main-content">
+        <!-- Loading State -->
+        <div class="loading-container" style="display: none;">
+            <div class="loading-spinner" aria-label="Loading content"></div>
+            <p class="loading-text">Loading...</p>
+        </div>
+
+        <!-- Error State -->
+        <div class="error-container" style="display: none;">
+            <div class="error-content">
+                <h2>Something went wrong</h2>
+                <p class="error-message">We encountered an error while loading the content.</p>
+                <button class="retry-button">Try Again</button>
+            </div>
+        </div>
+
+        <!-- Homepage Section -->
+        <section class="homepage-section page-section" id="homepage" style="display: block;">
+            <div class="container">
+                <header class="page-header">
+                    <h2 class="page-title">Choose a Company</h2>
+                    <p class="page-description">
+                        Practice LeetCode problems organized by company. Track your progress and focus on problems from
+                        companies you're targeting.
+                    </p>
+                </header>
+
+                <!-- Company Stats -->
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <span class="stat-number" id="total-companies">0</span>
+                        <span class="stat-label">Companies</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="total-problems">0</span>
+                        <span class="stat-label">Problems</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="solved-problems">0</span>
+                        <span class="stat-label">Solved</span>
+                    </div>
+                </div>
+
+                <!-- Company Grid -->
+                <div class="companies-grid" id="companies-grid" role="grid" aria-label="Company list">
+                    <!-- Company cards will be dynamically inserted here -->
+                </div>
+
+                <!-- No Results Message -->
+                <div class="no-results" style="display: none;">
+                    <h3>No companies found</h3>
+                    <p>Try adjusting your search terms or check back later.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company Page Section -->
+        <section class="company-page-section page-section" id="company-page" style="display: none;">
+            <div class="container">
+                <header class="page-header">
+                    <div class="page-header-content">
+                        <button class="back-button" aria-label="Go back to companies list">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="15,18 9,12 15,6"></polyline>
+                            </svg>
+                            Back
+                        </button>
+                        <div class="company-info">
+                            <h2 class="company-name" id="company-name">Company Name</h2>
+                            <div class="company-stats">
+                                <span class="progress-text" id="company-progress">0 / 0 problems solved</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="company-progress-fill" style="width: 0%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- Filter Controls -->
+                <div class="filter-controls">
+                    <div class="filter-group">
+                        <label class="filter-label">Difficulty:</label>
+                        <div class="filter-buttons" role="group" aria-label="Filter by difficulty">
+                            <button class="filter-btn active" data-filter="all" aria-pressed="true" aria-label="Show all problems">All</button>
+                            <button class="filter-btn" data-filter="easy" aria-pressed="false" aria-label="Show easy problems only">Easy</button>
+                            <button class="filter-btn" data-filter="medium" aria-pressed="false" aria-label="Show medium problems only">Medium</button>
+                            <button class="filter-btn" data-filter="hard" aria-pressed="false" aria-label="Show hard problems only">Hard</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Problems List -->
+                <div class="problems-container">
+                    <div class="problems-grid" id="problems-grid" role="grid" aria-label="Problems list">
+                        <!-- Problem cards will be dynamically inserted here -->
+                    </div>
+
+                    <!-- No Problems Message -->
+                    <div class="no-problems" style="display: none;">
+                        <h3>No problems found</h3>
+                        <p>No problems match the current filter criteria.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Detail Page Section -->
+        <section class="problem-detail-section page-section" id="problem-detail" style="display: none;">
+            <div class="container">
+                <header class="page-header">
+                    <button class="back-button" aria-label="Go back to company problems">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="15,18 9,12 15,6"></polyline>
+                        </svg>
+                        Back to Problems
+                    </button>
+                </header>
+
+                <article class="problem-detail-content">
+                    <header class="problem-header">
+                        <h2 class="problem-title" id="problem-title">Problem Title</h2>
+                        <div class="problem-meta">
+                            <span class="difficulty-badge" id="problem-difficulty">Medium</span>
+                            <span class="problem-frequency" id="problem-frequency">Frequency: 85%</span>
+                            <span class="problem-acceptance" id="problem-acceptance">Acceptance: 45%</span>
+                        </div>
+                    </header>
+
+                    <div class="problem-actions">
+                        <a href="#" class="leetcode-link" id="leetcode-link" target="_blank" rel="noopener noreferrer">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15,3 21,3 21,9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            Open in LeetCode
+                        </a>
+
+                        <button class="bookmark-btn" id="bookmark-btn" aria-label="Bookmark this problem">
+                            <svg class="bookmark-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                            <span class="bookmark-text">Bookmark</span>
+                        </button>
+
+                        <button class="solved-btn" id="solved-btn" aria-label="Mark as solved">
+                            <svg class="solved-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <polyline points="20,6 9,17 4,12"></polyline>
+                            </svg>
+                            <span class="solved-text">Mark as Solved</span>
+                        </button>
+                    </div>
+
+                    <div class="problem-topics" id="problem-topics">
+                        <!-- Topics will be dynamically inserted here -->
+                    </div>
+
+                    <div class="problem-description" id="problem-description">
+                        <p>Problem description will be loaded here...</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Favorites Page Section -->
+        <section class="favorites-section page-section" id="favorites-page" style="display: none;">
+            <div class="container">
+                <header class="page-header">
+                    <h2 class="page-title">Bookmarked Problems</h2>
+                    <p class="page-description">
+                        Problems you've bookmarked for quick access and review.
+                    </p>
+                </header>
+
+                <div class="favorites-content">
+                    <div class="favorites-grid" id="favorites-grid" role="grid" aria-label="Bookmarked problems">
+                        <!-- Bookmarked problems will be dynamically inserted here -->
+                    </div>
+
+                    <!-- Empty Favorites State -->
+                    <div class="empty-favorites" style="display: none;">
+                        <div class="empty-state-content">
+                            <svg class="empty-state-icon" width="64" height="64" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5">
+                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                            <h3>No bookmarked problems yet</h3>
+                            <p>Start bookmarking problems you want to revisit later.</p>
+                            <a href="#/" class="cta-button">Browse Companies</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search Results Page Section -->
+        <section class="search-results-section page-section" id="search-results" style="display: none;">
+            <div class="container">
+                <header class="page-header">
+                    <h2 class="page-title">Search Results</h2>
+                    <p class="page-description" id="search-description">
+                        Search results will appear here.
+                    </p>
+                </header>
+
+                <div class="search-results-content">
+                    <div class="search-results-grid" id="search-results-grid" role="grid" aria-label="Search results">
+                        <!-- Search results will be dynamically inserted here -->
+                    </div>
+
+                    <!-- No Search Results State -->
+                    <div class="no-search-results" style="display: none;">
+                        <div class="empty-state-content">
+                            <svg class="empty-state-icon" width="64" height="64" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="M21 21l-4.35-4.35"></path>
+                            </svg>
+                            <h3>No results found</h3>
+                            <p>Try adjusting your search terms or browse companies directly.</p>
+                            <a href="#/" class="cta-button">Browse Companies</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 404 Error Page Section -->
+        <section class="error-section page-section" id="404-page" style="display: none;">
+            <div class="container">
+                <div class="error-content">
+                    <div class="error-icon">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="12" y1="8" x2="12" y2="12"></line>
+                            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                        </svg>
+                    </div>
+                    <h2 class="error-title">Page Not Found</h2>
+                    <p class="error-message">The page you're looking for doesn't exist or has been moved.</p>
+                    <div class="error-actions">
+                        <a href="#/" class="cta-button">Go Home</a>
+                        <button onclick="history.back()" class="secondary-button">Go Back</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- General Error Page Section -->
+        <section class="error-section page-section" id="error-page" style="display: none;">
+            <div class="container">
+                <div class="error-content">
+                    <div class="error-icon">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="12" y1="8" x2="12" y2="12"></line>
+                            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                        </svg>
+                    </div>
+                    <h2 class="error-title">Something went wrong</h2>
+                    <p class="error-message" id="error-message">An unexpected error occurred. Please try again.</p>
+                    <div class="error-actions">
+                        <button onclick="location.reload()" class="cta-button">Reload Page</button>
+                        <a href="#/" class="secondary-button">Go Home</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">
+                    Built for interview preparation • Data sourced from LeetCode
+                </p>
+                <div class="footer-links">
+                    <a href="#/about" class="footer-link">About</a>
+                    <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer"
+                        class="footer-link">LeetCode</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/utils.js"></script>
+    <script src="js/performance.js"></script>
+    <script src="js/errorHandler.js"></script>
+    <script src="js/loadingManager.js"></script>
+    <script src="js/dataManager.js"></script>
+    <script src="js/stateManager.js"></script>
+    <script src="js/companyInitializer.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/accessibility.js"></script>
+    <script src="js/colorContrast.js"></script>
+    <script src="js/compatibility.js"></script>
+    <script src="js/bugFixes.js"></script>
+    <script src="js/testing.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

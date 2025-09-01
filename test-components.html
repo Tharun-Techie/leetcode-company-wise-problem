@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Components Test</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/themes.css">
+    <style>
+        .test-section {
+            margin: 2rem 0;
+            padding: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+        }
+
+        .test-title {
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>UI Components Test</h1>
+
+        <div class="test-section">
+            <h2 class="test-title">Company Cards</h2>
+            <div id="company-cards-test" class="companies-grid"></div>
+        </div>
+
+        <div class="test-section">
+            <h2 class="test-title">Problem Cards</h2>
+            <div id="problem-cards-test" class="problems-grid"></div>
+        </div>
+
+        <div class="test-section">
+            <h2 class="test-title">Search Bar</h2>
+            <div id="search-bar-test"></div>
+        </div>
+
+        <div class="test-section">
+            <h2 class="test-title">Filter Buttons</h2>
+            <div id="filter-buttons-test"></div>
+        </div>
+
+        <div class="test-section">
+            <h2 class="test-title">Other Components</h2>
+            <div id="other-components-test"></div>
+        </div>
+    </div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/dataManager.js"></script>
+    <script src="js/stateManager.js"></script>
+    <script src="js/components.js"></script>
+
+    <script>
+        // Test data
+        const testCompany = {
+            name: 'Google',
+            problemCount: 150,
+            logoUrl: null
+        };
+
+        const testProgress = {
+            solved: 45,
+            total: 150
+        };
+
+        const testProblem = {
+            id: 'test-problem-1',
+            title: 'Two Sum',
+            difficulty: 'EASY',
+            link: 'https://leetcode.com/problems/two-sum',
+            topics: ['Array', 'Hash Table', 'Two Pointers'],
+            frequency: 95.7,
+            acceptanceRate: 0.557,
+            solved: true,
+            bookmarked: false
+        };
+
+        const testCounts = {
+            all: 150,
+            easy: 45,
+            medium: 75,
+            hard: 30
+        };
+
+        // Test company cards
+        try {
+            const companyCard = UIComponents.createCompanyCard(testCompany, testProgress);
+            document.getElementById('company-cards-test').appendChild(companyCard);
+            console.log('✓ Company card created successfully');
+        } catch (error) {
+            console.error('✗ Company card failed:', error);
+        }
+
+        // Test problem cards
+        try {
+            const problemCard = UIComponents.createProblemCard(testProblem, {
+                onClick: (problem) => console.log('Problem clicked:', problem.title)
+            });
+            document.getElementById('problem-cards-test').appendChild(problemCard);
+            console.log('✓ Problem card created successfully');
+        } catch (error) {
+            console.error('✗ Problem card failed:', error);
+        }
+
+        // Test search bar
+        try {
+            const searchBar = UIComponents.createSearchBar({
+                placeholder: 'Test search...',
+                onSearch: (query) => console.log('Search query:', query),
+                debounceDelay: 300
+            });
+            document.getElementById('search-bar-test').appendChild(searchBar);
+            console.log('✓ Search bar created successfully');
+        } catch (error) {
+            console.error('✗ Search bar failed:', error);
+        }
+
+        // Test filter buttons
+        try {
+            const filterButtons = UIComponents.createFilterButtons({
+                counts: testCounts,
+                activeFilter: 'all',
+                onFilterChange: (filter) => console.log('Filter changed:', filter)
+            });
+            document.getElementById('filter-buttons-test').appendChild(filterButtons);
+            console.log('✓ Filter buttons created successfully');
+        } catch (error) {
+            console.error('✗ Filter buttons failed:', error);
+        }
+
+        // Test other components
+        try {
+            const otherContainer = document.getElementById('other-components-test');
+
+            // Loading spinner
+            const loadingSpinner = UIComponents.createLoadingSpinner('Loading test...');
+            otherContainer.appendChild(loadingSpinner);
+
+            // Error message
+            const errorMessage = UIComponents.createErrorMessage('Test error message', () => {
+                console.log('Retry clicked');
+            });
+            otherContainer.appendChild(errorMessage);
+
+            // Empty state
+            const emptyState = UIComponents.createEmptyState({
+                title: 'No test data',
+                message: 'This is a test empty state',
+                icon: '📭'
+            });
+            otherContainer.appendChild(emptyState);
+
+            // Back button
+            const backButton = UIComponents.createBackButton({
+                text: 'Test Back',
+                onClick: () => console.log('Back clicked')
+            });
+            otherContainer.appendChild(backButton);
+
+            // Theme toggle
+            const themeToggle = UIComponents.createThemeToggle({
+                onClick: () => {
+                    const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+                    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+                    document.documentElement.setAttribute('data-theme', newTheme);
+                    console.log('Theme toggled to:', newTheme);
+                }
+            });
+            otherContainer.appendChild(themeToggle);
+
+            console.log('✓ Other components created successfully');
+        } catch (error) {
+            console.error('✗ Other components failed:', error);
+        }
+
+        console.log('Component testing completed');
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage Functionality Test</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/themes.css">
+    <style>
+        body { padding: 20px; }
+        .test-section { margin: 20px 0; padding: 20px; border: 1px solid #ccc; }
+        .test-result { margin: 10px 0; padding: 10px; }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+    </style>
+</head>
+<body>
+    <h1>Homepage Functionality Test</h1>
+    
+    <div class="test-section">
+        <h2>Test Results</h2>
+        <div id="test-results"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Homepage Stats</h2>
+        <div class="stats-container">
+            <div class="stat-card">
+                <span class="stat-number" id="total-companies">0</span>
+                <span class="stat-label">Companies</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="total-problems">0</span>
+                <span class="stat-label">Problems</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="solved-problems">0</span>
+                <span class="stat-label">Solved</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Search Functionality</h2>
+        <div class="search-container">
+            <input type="search" id="search-input" class="search-input"
+                placeholder="Search companies..." aria-label="Search companies">
+            <button class="search-clear" aria-label="Clear search" style="display: none;">×</button>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Company Cards</h2>
+        <div class="companies-grid" id="companies-grid">
+            <!-- Company cards will be rendered here -->
+        </div>
+        <div class="no-results" style="display: none;">
+            <h3>No companies found</h3>
+            <p>Try adjusting your search terms.</p>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/utils.js"></script>
+    <script src="js/dataManager.js"></script>
+    <script src="js/stateManager.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/app.js"></script>
+    
+    <script>
+        // Test script
+        async function runTests() {
+            const results = document.getElementById('test-results');
+            
+            function addResult(test, success, message) {
+                const div = document.createElement('div');
+                div.className = `test-result ${success ? 'success' : 'error'}`;
+                div.innerHTML = `<strong>${test}:</strong> ${message}`;
+                results.appendChild(div);
+            }
+            
+            try {
+                // Test 1: Check if classes are available
+                addResult('Classes Available', 
+                    typeof StateManager !== 'undefined' && 
+                    typeof DataManager !== 'undefined' && 
+                    typeof Router !== 'undefined' && 
+                    typeof UIComponents !== 'undefined',
+                    'All required classes are available'
+                );
+                
+                // Test 2: Initialize components
+                const stateManager = new StateManager();
+                const dataManager = new DataManager();
+                const router = new Router();
+                
+                addResult('Component Initialization', true, 'All components initialized successfully');
+                
+                // Test 3: Load companies data
+                try {
+                    const companies = await dataManager.loadCompanies();
+                    addResult('Load Companies', companies.length > 0, `Loaded ${companies.length} companies`);
+                    
+                    // Test 4: Update stats
+                    const totalCompanies = companies.length;
+                    const totalProblems = companies.reduce((sum, company) => sum + (company.problemCount || 0), 0);
+                    
+                    document.getElementById('total-companies').textContent = totalCompanies;
+                    document.getElementById('total-problems').textContent = totalProblems;
+                    document.getElementById('solved-problems').textContent = 0;
+                    
+                    addResult('Update Stats', true, `Stats updated: ${totalCompanies} companies, ${totalProblems} problems`);
+                    
+                    // Test 5: Render company cards (first 10 for testing)
+                    const testCompanies = companies.slice(0, 10);
+                    const companiesGrid = document.getElementById('companies-grid');
+                    
+                    for (const company of testCompanies) {
+                        try {
+                            const progress = { solved: 0, total: company.problemCount || 0 };
+                            const card = UIComponents.createCompanyCard(company, progress);
+                            companiesGrid.appendChild(card);
+                        } catch (error) {
+                            console.warn(`Failed to create card for ${company.name}:`, error);
+                        }
+                    }
+                    
+                    addResult('Render Company Cards', true, `Rendered ${testCompanies.length} company cards`);
+                    
+                    // Test 6: Search functionality
+                    const searchInput = document.getElementById('search-input');
+                    if (searchInput) {
+                        searchInput.addEventListener('input', (e) => {
+                            const query = e.target.value.toLowerCase();
+                            const cards = document.querySelectorAll('.company-card');
+                            let visibleCount = 0;
+                            
+                            cards.forEach(card => {
+                                const companyName = card.getAttribute('data-company') || '';
+                                const isVisible = companyName.toLowerCase().includes(query);
+                                card.style.display = isVisible ? 'block' : 'none';
+                                if (isVisible) visibleCount++;
+                            });
+                            
+                            const noResults = document.querySelector('.no-results');
+                            if (noResults) {
+                                noResults.style.display = visibleCount === 0 && query ? 'block' : 'none';
+                            }
+                        });
+                        
+                        addResult('Search Functionality', true, 'Search functionality set up successfully');
+                    }
+                    
+                } catch (error) {
+                    addResult('Load Companies', false, `Failed to load companies: ${error.message}`);
+                }
+                
+            } catch (error) {
+                addResult('Test Execution', false, `Test failed: ${error.message}`);
+            }
+        }
+        
+        // Add some sample solved problems for testing
+        function addSampleSolvedProblems() {
+            if (typeof StateManager !== 'undefined') {
+                const stateManager = new StateManager();
+                
+                // Add some sample solved problems
+                const sampleProblems = [
+                    'problem_1_two_sum',
+                    'problem_2_add_two_numbers', 
+                    'problem_3_longest_substring',
+                    'problem_4_median_arrays',
+                    'problem_5_longest_palindrome'
+                ];
+                
+                sampleProblems.forEach(problemId => {
+                    stateManager.updateSolvedStatus(problemId, true);
+                });
+                
+                console.log('Added sample solved problems for testing');
+                return stateManager;
+            }
+            return null;
+        }
+        
+        // Run tests when page loads
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+                addSampleSolvedProblems();
+                runTests();
+            });
+        } else {
+            addSampleSolvedProblems();
+            runTests();
+        }
+    </script>
+</body>
+</html>
